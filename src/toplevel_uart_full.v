@@ -2513,7 +2513,7 @@ endmodule
 (* hdlname = "toplevel_uart" *)
 (* dynports =  1  *)
 (* top =  1  *)
-(* src = "src/toplevel_uart.sv:1.1-400.10" *)
+(* src = "src/toplevel_uart.sv:1.1-402.10" *)
 module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds, cos_ds_n, sin_ds, sin_ds_n, lo_i, lo_q, lo_ix, lo_qx, current);
   (* src = "src/toplevel_uart.sv:2.17-2.20" *)
   input clk;
@@ -2557,77 +2557,77 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   (* src = "src/toplevel_uart.sv:17.24-17.31" *)
   output [1:0] current;
   wire [1:0] current;
-  (* src = "src/toplevel_uart.sv:367.14-367.14" *)
+  (* src = "src/toplevel_uart.sv:369.14-369.14" *)
   wire [7:0] _000_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [1:0] _001_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [1:0] _002_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [1:0] _003_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [1:0] _004_;
-  (* src = "src/toplevel_uart.sv:367.14-367.14" *)
+  (* src = "src/toplevel_uart.sv:369.14-369.14" *)
   wire [1:0] _005_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [35:0] _006_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _007_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _008_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _009_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _010_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [25:0] _011_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _012_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _013_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _014_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _015_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _016_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _017_;
-  (* src = "src/toplevel_uart.sv:367.14-367.14" *)
+  (* src = "src/toplevel_uart.sv:369.14-369.14" *)
   wire [29:0] _018_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [2:0] _019_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _020_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [19:0] _021_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [5:0] _022_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _023_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _024_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _025_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [31:0] _026_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [1:0] _027_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [8:0] _028_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [29:0] _029_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire _030_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [7:0] _031_;
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   wire [31:0] _032_;
-  (* src = "src/toplevel_uart.sv:367.14-367.14" *)
+  (* src = "src/toplevel_uart.sv:369.14-369.14" *)
   wire [7:0] _033_;
-  (* src = "src/toplevel_uart.sv:367.14-367.14" *)
+  (* src = "src/toplevel_uart.sv:369.14-369.14" *)
   wire [1:0] _034_;
-  (* src = "src/toplevel_uart.sv:367.14-367.14" *)
+  (* src = "src/toplevel_uart.sv:369.14-369.14" *)
   wire [29:0] _035_;
   (* src = "src/toplevel_uart.sv:190.17-190.28" *)
   wire [29:0] _036_;
@@ -2641,7 +2641,7 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _040_;
   (* src = "src/toplevel_uart.sv:271.15-271.30" *)
   wire _041_;
-  (* src = "src/toplevel_uart.sv:335.9-335.19" *)
+  (* src = "src/toplevel_uart.sv:336.9-336.19" *)
   wire _042_;
   (* src = "src/toplevel_uart.sv:223.13-223.47" *)
   wire _043_;
@@ -2651,22 +2651,22 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _045_;
   (* src = "src/toplevel_uart.sv:189.9-189.43" *)
   wire _046_;
-  wire [2:0] _047_;
+  wire [31:0] _047_;
   wire _048_;
-  wire [2:0] _049_;
+  wire [31:0] _049_;
   wire _050_;
-  wire _051_;
-  wire [2:0] _052_;
-  wire _053_;
-  wire [2:0] _054_;
-  wire _055_;
+  wire [31:0] _051_;
+  wire _052_;
+  wire [31:0] _053_;
+  wire _054_;
+  wire [2:0] _055_;
   wire _056_;
-  wire _057_;
+  wire [2:0] _057_;
   wire _058_;
   wire _059_;
-  wire _060_;
+  wire [2:0] _060_;
   wire _061_;
-  wire _062_;
+  wire [2:0] _062_;
   wire _063_;
   wire _064_;
   wire _065_;
@@ -2724,13 +2724,13 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _117_;
   wire _118_;
   wire _119_;
-  wire [29:0] _120_;
+  wire _120_;
   wire _121_;
-  wire [29:0] _122_;
+  wire _122_;
   wire _123_;
-  wire [29:0] _124_;
+  wire _124_;
   wire _125_;
-  wire [29:0] _126_;
+  wire _126_;
   wire _127_;
   wire [29:0] _128_;
   wire _129_;
@@ -2758,53 +2758,53 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _151_;
   wire [29:0] _152_;
   wire _153_;
-  wire [1:0] _154_;
+  wire [29:0] _154_;
   wire _155_;
-  wire [1:0] _156_;
+  wire [29:0] _156_;
   wire _157_;
-  wire _158_;
-  wire [1:0] _159_;
-  wire _160_;
-  wire [1:0] _161_;
-  wire _162_;
-  wire [1:0] _163_;
-  wire _164_;
-  wire [1:0] _165_;
+  wire [29:0] _158_;
+  wire _159_;
+  wire [29:0] _160_;
+  wire _161_;
+  wire [1:0] _162_;
+  wire _163_;
+  wire [1:0] _164_;
+  wire _165_;
   wire _166_;
-  wire [8:0] _167_;
+  wire [1:0] _167_;
   wire _168_;
-  wire [8:0] _169_;
+  wire [1:0] _169_;
   wire _170_;
-  wire [8:0] _171_;
+  wire [1:0] _171_;
   wire _172_;
-  wire _173_;
-  wire [8:0] _174_;
-  wire _175_;
-  wire [8:0] _176_;
-  wire _177_;
-  wire [8:0] _178_;
-  wire _179_;
-  wire [8:0] _180_;
+  wire [1:0] _173_;
+  wire _174_;
+  wire [8:0] _175_;
+  wire _176_;
+  wire [8:0] _177_;
+  wire _178_;
+  wire [8:0] _179_;
+  wire _180_;
   wire _181_;
-  wire [25:0] _182_;
+  wire [8:0] _182_;
   wire _183_;
-  wire [25:0] _184_;
+  wire [8:0] _184_;
   wire _185_;
-  wire [25:0] _186_;
+  wire [8:0] _186_;
   wire _187_;
-  wire [25:0] _188_;
+  wire [8:0] _188_;
   wire _189_;
   wire [25:0] _190_;
   wire _191_;
   wire [25:0] _192_;
   wire _193_;
-  wire _194_;
+  wire [25:0] _194_;
   wire _195_;
-  wire _196_;
+  wire [25:0] _196_;
   wire _197_;
-  wire _198_;
+  wire [25:0] _198_;
   wire _199_;
-  wire _200_;
+  wire [25:0] _200_;
   wire _201_;
   wire _202_;
   wire _203_;
@@ -2816,17 +2816,17 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _209_;
   wire _210_;
   wire _211_;
-  wire [29:0] _212_;
+  wire _212_;
   wire _213_;
-  wire [29:0] _214_;
+  wire _214_;
   wire _215_;
-  wire [1:0] _216_;
+  wire _216_;
   wire _217_;
-  wire [1:0] _218_;
+  wire _218_;
   wire _219_;
-  wire [1:0] _220_;
+  wire [29:0] _220_;
   wire _221_;
-  wire [1:0] _222_;
+  wire [29:0] _222_;
   wire _223_;
   wire [1:0] _224_;
   wire _225_;
@@ -2844,13 +2844,13 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _237_;
   wire [1:0] _238_;
   wire _239_;
-  wire [15:0] _240_;
+  wire [1:0] _240_;
   wire _241_;
-  wire [15:0] _242_;
+  wire [1:0] _242_;
   wire _243_;
-  wire [15:0] _244_;
+  wire [1:0] _244_;
   wire _245_;
-  wire [15:0] _246_;
+  wire [1:0] _246_;
   wire _247_;
   wire [15:0] _248_;
   wire _249_;
@@ -2862,78 +2862,78 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _255_;
   wire [15:0] _256_;
   wire _257_;
-  wire _258_;
+  wire [15:0] _258_;
   wire _259_;
-  wire _260_;
+  wire [15:0] _260_;
   wire _261_;
-  wire _262_;
+  wire [15:0] _262_;
   wire _263_;
-  wire _264_;
+  wire [15:0] _264_;
   wire _265_;
-  wire [5:0] _266_;
+  wire _266_;
   wire _267_;
-  wire [5:0] _268_;
+  wire _268_;
   wire _269_;
-  wire [5:0] _270_;
+  wire _270_;
   wire _271_;
-  wire [11:0] _272_;
+  wire _272_;
   wire _273_;
-  wire [11:0] _274_;
+  wire [5:0] _274_;
   wire _275_;
-  wire [11:0] _276_;
+  wire [5:0] _276_;
   wire _277_;
-  wire [15:0] _278_;
+  wire [5:0] _278_;
   wire _279_;
-  wire [15:0] _280_;
+  wire [11:0] _280_;
   wire _281_;
-  wire [15:0] _282_;
+  wire [11:0] _282_;
   wire _283_;
-  wire [7:0] _284_;
+  wire [11:0] _284_;
   wire _285_;
-  wire _286_;
+  wire [15:0] _286_;
   wire _287_;
-  wire _288_;
-  wire [1:0] _289_;
-  wire _290_;
+  wire [15:0] _288_;
+  wire _289_;
+  wire [15:0] _290_;
   wire _291_;
-  wire _292_;
+  wire [7:0] _292_;
   wire _293_;
-  wire [29:0] _294_;
+  wire _294_;
   wire _295_;
   wire _296_;
-  wire _297_;
+  wire [1:0] _297_;
   wire _298_;
-  wire [14:0] _299_;
+  wire _299_;
   wire _300_;
-  wire [14:0] _301_;
-  wire _302_;
-  wire [14:0] _303_;
+  wire _301_;
+  wire [29:0] _302_;
+  wire _303_;
   wire _304_;
-  wire [11:0] _305_;
+  wire _305_;
   wire _306_;
-  wire [11:0] _307_;
+  wire [14:0] _307_;
   wire _308_;
-  wire [11:0] _309_;
+  wire [14:0] _309_;
   wire _310_;
-  wire [13:0] _311_;
+  wire [14:0] _311_;
   wire _312_;
-  wire [13:0] _313_;
+  wire [11:0] _313_;
   wire _314_;
-  wire [13:0] _315_;
+  wire [11:0] _315_;
   wire _316_;
   wire [11:0] _317_;
   wire _318_;
-  wire [11:0] _319_;
+  wire [13:0] _319_;
   wire _320_;
-  wire [11:0] _321_;
+  wire [13:0] _321_;
   wire _322_;
   wire [13:0] _323_;
   wire _324_;
-  wire [13:0] _325_;
+  wire [11:0] _325_;
   wire _326_;
-  wire [13:0] _327_;
+  wire [11:0] _327_;
   wire _328_;
-  wire [13:0] _329_;
+  wire [11:0] _329_;
   wire _330_;
   wire [13:0] _331_;
   wire _332_;
@@ -2945,55 +2945,55 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _338_;
   wire [13:0] _339_;
   wire _340_;
-  wire [4:0] _341_;
+  wire [13:0] _341_;
   wire _342_;
-  wire [4:0] _343_;
+  wire [13:0] _343_;
   wire _344_;
-  wire [4:0] _345_;
+  wire [13:0] _345_;
   wire _346_;
-  wire [7:0] _347_;
+  wire [13:0] _347_;
   wire _348_;
-  wire [7:0] _349_;
+  wire [4:0] _349_;
   wire _350_;
-  wire _351_;
-  wire [7:0] _352_;
-  wire _353_;
+  wire [4:0] _351_;
+  wire _352_;
+  wire [4:0] _353_;
   wire _354_;
   wire [7:0] _355_;
   wire _356_;
   wire [7:0] _357_;
   wire _358_;
   wire _359_;
-  wire [31:0] _360_;
+  wire [7:0] _360_;
   wire _361_;
-  wire [31:0] _362_;
-  wire _363_;
-  wire [31:0] _364_;
-  wire _365_;
+  wire _362_;
+  wire [7:0] _363_;
+  wire _364_;
+  wire [7:0] _365_;
   wire _366_;
-  wire [31:0] _367_;
-  wire _368_;
+  wire _367_;
+  wire [7:0] _368_;
   wire _369_;
-  wire [31:0] _370_;
+  wire [7:0] _370_;
   wire _371_;
-  wire [31:0] _372_;
+  wire [7:0] _372_;
   wire _373_;
-  wire _374_;
-  wire [31:0] _375_;
-  wire _376_;
-  wire [31:0] _377_;
-  wire _378_;
-  wire [31:0] _379_;
-  wire _380_;
+  wire [7:0] _374_;
+  wire _375_;
+  wire [31:0] _376_;
+  wire _377_;
+  wire [31:0] _378_;
+  wire _379_;
+  wire [31:0] _380_;
   wire _381_;
-  wire [31:0] _382_;
-  wire _383_;
+  wire _382_;
+  wire [31:0] _383_;
   wire _384_;
   wire _385_;
   wire [31:0] _386_;
   wire _387_;
-  wire _388_;
-  wire [31:0] _389_;
+  wire [31:0] _388_;
+  wire _389_;
   wire _390_;
   wire [31:0] _391_;
   wire _392_;
@@ -3001,12 +3001,20 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   wire _394_;
   wire [31:0] _395_;
   wire _396_;
-  (* src = "src/toplevel_uart.sv:226.30-226.48" *)
-  wire [31:0] _397_;
-  (* src = "src/toplevel_uart.sv:243.33-243.53" *)
+  wire _397_;
   wire [31:0] _398_;
+  wire _399_;
+  wire _400_;
+  wire _401_;
+  wire [31:0] _402_;
+  wire _403_;
+  wire _404_;
+  (* src = "src/toplevel_uart.sv:226.30-226.48" *)
+  wire [31:0] _405_;
+  (* src = "src/toplevel_uart.sv:243.33-243.53" *)
+  wire [31:0] _406_;
   (* src = "src/toplevel_uart.sv:256.42-256.62" *)
-  wire [31:0] _399_;
+  wire [31:0] _407_;
   (* src = "src/toplevel_uart.sv:52.15-52.18" *)
   wire [7:0] OSR;
   (* src = "src/toplevel_uart.sv:34.15-34.20" *)
@@ -3114,163 +3122,168 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   assign _038_ = state == (* src = "src/toplevel_uart.sv:189.9-189.26" *) 32'd3;
   assign _040_ = ! (* src = "src/toplevel_uart.sv:253.17-253.38" *) transmit_counter;
   assign _041_ = ~ (* src = "src/toplevel_uart.sv:271.15-271.30" *) data[0];
-  assign _042_ = ~ (* src = "src/toplevel_uart.sv:335.9-335.19" *) reset;
+  assign _042_ = ~ (* src = "src/toplevel_uart.sv:336.9-336.19" *) reset;
   assign _043_ = cycle_counter >= (* src = "src/toplevel_uart.sv:223.13-223.47" *) 32'd38248000;
   assign _044_ = symbol_counter <= (* src = "src/toplevel_uart.sv:228.15-228.34" *) 32'd1;
   assign _045_ = transmit_counter <= (* src = "src/toplevel_uart.sv:244.17-244.49" *) 8'h15;
   assign _046_ = _038_ && (* src = "src/toplevel_uart.sv:189.9-189.43" *) cordic_strb_o;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    callsign <= { _309_, _321_, _276_ };
+    callsign <= { _317_, _329_, _284_ };
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    locator <= { _303_, _345_ };
+    locator <= { _311_, _353_ };
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    power <= _270_;
+    power <= _278_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    f_c0 <= { _339_, _256_ };
+    f_c0 <= { _347_, _264_ };
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    f_c1 <= { _333_, _250_ };
+    f_c1 <= { _341_, _258_ };
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    f_c2 <= { _327_, _244_ };
+    f_c2 <= { _335_, _252_ };
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    f_c3 <= { _315_, _282_ };
+    f_c3 <= { _323_, _290_ };
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    OSR_0 <= _238_;
+    OSR_0 <= _246_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    OSR_1 <= _232_;
+    OSR_1 <= _240_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    OSR_2 <= _226_;
+    OSR_2 <= _234_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    OSR_3 <= _220_;
+    OSR_3 <= _228_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    cordic_I <= _214_;
+    cordic_I <= _222_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    cordic_Q <= _212_;
+    cordic_Q <= _220_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    encoder_reset <= _210_;
+    encoder_reset <= _218_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    start_encoding <= _200_;
+    start_encoding <= _208_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    cycle_counter <= _192_;
+    cycle_counter <= _200_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    symbol_counter <= _180_;
+    symbol_counter <= _188_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    symbol <= _165_;
+    symbol <= _173_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    theta <= _152_;
+    theta <= _160_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    cosine <= _138_;
+    cosine <= _146_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    sine <= _128_;
+    sine <= _136_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    transmission_reset_n <= _264_;
+    transmission_reset_n <= _272_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    req_next_symbol <= _118_;
+    req_next_symbol <= _126_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    cordic_strb_i <= _102_;
+    cordic_strb_i <= _110_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    dsmod_ena <= _083_;
+    dsmod_ena <= _091_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    lo_enable <= _068_;
+    lo_enable <= _076_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    lo_div_sel <= _054_;
+    lo_div_sel <= _062_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    state <= _395_;
+    state <= _053_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    transmit_state <= _370_;
+    transmit_state <= _386_;
   (* \always_ff  = 32'd1 *)
-  (* src = "src/toplevel_uart.sv:186.3-365.6" *)
+  (* src = "src/toplevel_uart.sv:186.3-367.6" *)
   always @(posedge clk)
-    transmit_counter <= _355_;
-  function [2:0] _440_;
+    transmit_counter <= _374_;
+  assign _047_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _391_ : 32'd0;
+  assign _049_ = _050_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _047_ : _391_;
+  assign _050_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _051_ = _052_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _049_ : _391_;
+  assign _053_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _051_ : 32'd0;
+  function [2:0] _453_;
     input [2:0] a;
     input [5:0] b;
     input [1:0] s;
-    (* src = "src/toplevel_uart.sv:290.12-290.12|src/toplevel_uart.sv:269.7-328.14" *)
+    (* src = "src/toplevel_uart.sv:291.12-291.12|src/toplevel_uart.sv:269.7-329.14" *)
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _440_ = b[2:0];
+        _453_ = b[2:0];
       2'b1?:
-        _440_ = b[5:3];
+        _453_ = b[5:3];
       default:
-        _440_ = a;
+        _453_ = a;
     endcase
   endfunction
-  assign _047_ = _440_(lo_div_sel, { _049_, data[2:0] }, { _051_, _048_ });
-  assign _048_ = addr == (* src = "src/toplevel_uart.sv:290.12-290.12|src/toplevel_uart.sv:269.7-328.14" *) 8'h01;
-  assign _049_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) lo_div_sel : 3'h2;
-  assign _051_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _052_ = _053_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _047_ : lo_div_sel;
-  assign _054_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _052_ : 3'h2;
-  assign _056_ = _057_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) 1'h1 : lo_enable;
-  assign _058_ = _059_ ? (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) _056_ : lo_enable;
-  assign _059_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
-  assign _060_ = _061_ ? (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) _058_ : lo_enable;
-  assign _061_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _062_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _060_ : 1'h0;
-  assign _064_ = _065_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _062_ : _060_;
-  assign _065_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _066_ = _067_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _064_ : _060_;
-  assign _068_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _066_ : 1'h0;
-  function [0:0] _456_;
+  assign _055_ = _453_(lo_div_sel, { _057_, data[2:0] }, { _059_, _056_ });
+  assign _056_ = addr == (* src = "src/toplevel_uart.sv:291.12-291.12|src/toplevel_uart.sv:269.7-329.14" *) 8'h01;
+  assign _057_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) lo_div_sel : 3'h2;
+  assign _059_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _060_ = _061_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _055_ : lo_div_sel;
+  assign _062_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _060_ : 3'h2;
+  assign _064_ = _065_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) 1'h1 : lo_enable;
+  assign _066_ = _067_ ? (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) _064_ : lo_enable;
+  assign _067_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
+  assign _068_ = _069_ ? (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) _066_ : lo_enable;
+  assign _069_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _070_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _068_ : 1'h0;
+  assign _072_ = _073_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _070_ : _068_;
+  assign _073_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _074_ = _075_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _072_ : _068_;
+  assign _076_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _074_ : 1'h0;
+  function [0:0] _469_;
     input [0:0] a;
     input [1:0] b;
     input [1:0] s;
@@ -3278,25 +3291,25 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _456_ = b[0:0];
+        _469_ = b[0:0];
       2'b1?:
-        _456_ = b[1:1];
+        _469_ = b[1:1];
       default:
-        _456_ = a;
+        _469_ = a;
     endcase
   endfunction
-  assign _070_ = _456_(dsmod_ena, { _074_, 1'h0 }, { _076_, _071_ });
-  assign _071_ = state == (* src = "src/toplevel_uart.sv:260.10-260.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd4;
-  assign _072_ = _073_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) 1'h1 : dsmod_ena;
-  assign _074_ = _075_ ? (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) _072_ : dsmod_ena;
-  assign _075_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
-  assign _076_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _077_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _070_ : 1'h0;
-  assign _079_ = _080_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _077_ : _070_;
-  assign _080_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _081_ = _082_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _079_ : _070_;
-  assign _083_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _081_ : 1'h0;
-  function [0:0] _467_;
+  assign _078_ = _469_(dsmod_ena, { _082_, 1'h0 }, { _084_, _079_ });
+  assign _079_ = state == (* src = "src/toplevel_uart.sv:260.10-260.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd4;
+  assign _080_ = _081_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) 1'h1 : dsmod_ena;
+  assign _082_ = _083_ ? (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) _080_ : dsmod_ena;
+  assign _083_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
+  assign _084_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _085_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _078_ : 1'h0;
+  assign _087_ = _088_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _085_ : _078_;
+  assign _088_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _089_ = _090_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _087_ : _078_;
+  assign _091_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _089_ : 1'h0;
+  function [0:0] _480_;
     input [0:0] a;
     input [2:0] b;
     input [2:0] s;
@@ -3304,21 +3317,21 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       3'b??1:
-        _467_ = b[0:0];
+        _480_ = b[0:0];
       3'b?1?:
-        _467_ = b[1:1];
+        _480_ = b[1:1];
       3'b1??:
-        _467_ = b[2:2];
+        _480_ = b[2:2];
       default:
-        _467_ = a;
+        _480_ = a;
     endcase
   endfunction
-  assign _085_ = _467_(cordic_strb_i, { 1'h0, _087_, 1'h0 }, { _090_, _089_, _086_ });
-  assign _086_ = transmit_state == (* src = "src/toplevel_uart.sv:248.14-248.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd2;
-  assign _087_ = _088_ ? (* src = "src/toplevel_uart.sv:244.17-244.49|src/toplevel_uart.sv:244.13-247.16" *) 1'h1 : cordic_strb_i;
-  assign _089_ = transmit_state == (* src = "src/toplevel_uart.sv:240.14-240.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd1;
-  assign _090_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
-  function [0:0] _472_;
+  assign _093_ = _480_(cordic_strb_i, { 1'h0, _095_, 1'h0 }, { _098_, _097_, _094_ });
+  assign _094_ = transmit_state == (* src = "src/toplevel_uart.sv:248.14-248.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd2;
+  assign _095_ = _096_ ? (* src = "src/toplevel_uart.sv:244.17-244.49|src/toplevel_uart.sv:244.13-247.16" *) 1'h1 : cordic_strb_i;
+  assign _097_ = transmit_state == (* src = "src/toplevel_uart.sv:240.14-240.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd1;
+  assign _098_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
+  function [0:0] _485_;
     input [0:0] a;
     input [1:0] b;
     input [1:0] s;
@@ -3326,24 +3339,24 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _472_ = b[0:0];
+        _485_ = b[0:0];
       2'b1?:
-        _472_ = b[1:1];
+        _485_ = b[1:1];
       default:
-        _472_ = a;
+        _485_ = a;
     endcase
   endfunction
-  assign _091_ = _472_(cordic_strb_i, { _093_, _085_ }, { _095_, _092_ });
-  assign _092_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _093_ = _094_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 1'h1 : cordic_strb_i;
-  assign _095_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _096_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _091_ : 1'h0;
-  assign _098_ = _099_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _096_ : _091_;
-  assign _099_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _100_ = _101_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _098_ : _091_;
-  assign _102_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _100_ : 1'h0;
-  assign _104_ = _105_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) 1'h1 : 1'h0;
-  function [0:0] _482_;
+  assign _099_ = _485_(cordic_strb_i, { _101_, _093_ }, { _103_, _100_ });
+  assign _100_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _101_ = _102_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 1'h1 : cordic_strb_i;
+  assign _103_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _104_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _099_ : 1'h0;
+  assign _106_ = _107_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _104_ : _099_;
+  assign _107_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _108_ = _109_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _106_ : _099_;
+  assign _110_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _108_ : 1'h0;
+  assign _112_ = _113_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) 1'h1 : 1'h0;
+  function [0:0] _495_;
     input [0:0] a;
     input [2:0] b;
     input [2:0] s;
@@ -3351,48 +3364,48 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       3'b??1:
-        _482_ = b[0:0];
+        _495_ = b[0:0];
       3'b?1?:
-        _482_ = b[1:1];
+        _495_ = b[1:1];
       3'b1??:
-        _482_ = b[2:2];
+        _495_ = b[2:2];
       default:
-        _482_ = a;
+        _495_ = a;
     endcase
   endfunction
-  assign _106_ = _482_(req_next_symbol, { _109_, 1'h0, _104_ }, { _111_, _108_, _107_ });
-  assign _107_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _108_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _109_ = _110_ ? (* src = "src/toplevel_uart.sv:197.13-197.18|src/toplevel_uart.sv:197.9-200.12" *) 1'h1 : req_next_symbol;
-  assign _111_ = ! (* src = "src/toplevel_uart.sv:195.17-195.17|src/toplevel_uart.sv:195.5-266.12" *) state;
-  assign _112_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _106_ : 1'h0;
-  assign _114_ = _115_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _112_ : _106_;
-  assign _115_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _116_ = _117_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _114_ : _106_;
-  assign _118_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _116_ : 1'h0;
-  assign _120_ = _121_ ? (* src = "src/toplevel_uart.sv:189.9-189.43|src/toplevel_uart.sv:189.5-193.8" *) Y_o : sine;
-  assign _122_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _120_ : 30'h00000000;
-  assign _124_ = _125_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _122_ : _120_;
-  assign _125_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _126_ = _127_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _124_ : _120_;
-  assign _128_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _126_ : 30'h00000000;
-  assign _130_ = _131_ ? (* src = "src/toplevel_uart.sv:189.9-189.43|src/toplevel_uart.sv:189.5-193.8" *) X_o : cosine;
-  assign _132_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _130_ : 30'h00000000;
-  assign _134_ = _135_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _132_ : _130_;
-  assign _135_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _136_ = _137_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _134_ : _130_;
-  assign _138_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _136_ : 30'h00000000;
-  assign _140_ = _141_ ? (* src = "src/toplevel_uart.sv:189.9-189.43|src/toplevel_uart.sv:189.5-193.8" *) _036_ : theta;
-  assign _142_ = _143_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 30'h00000000 : _140_;
-  assign _144_ = _145_ ? (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) _142_ : _140_;
-  assign _145_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _146_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _144_ : 30'h00000000;
-  assign _148_ = _149_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _146_ : _144_;
-  assign _149_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _150_ = _151_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _148_ : _144_;
-  assign _152_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _150_ : 30'h00000000;
-  assign _154_ = _155_ ? (* src = "src/toplevel_uart.sv:221.13-221.26|src/toplevel_uart.sv:221.9-221.50" *) next_symbol : symbol;
-  function [1:0] _514_;
+  assign _114_ = _495_(req_next_symbol, { _117_, 1'h0, _112_ }, { _119_, _116_, _115_ });
+  assign _115_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _116_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _117_ = _118_ ? (* src = "src/toplevel_uart.sv:197.13-197.18|src/toplevel_uart.sv:197.9-200.12" *) 1'h1 : req_next_symbol;
+  assign _119_ = ! (* src = "src/toplevel_uart.sv:195.17-195.17|src/toplevel_uart.sv:195.5-266.12" *) state;
+  assign _120_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _114_ : 1'h0;
+  assign _122_ = _123_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _120_ : _114_;
+  assign _123_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _124_ = _125_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _122_ : _114_;
+  assign _126_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _124_ : 1'h0;
+  assign _128_ = _129_ ? (* src = "src/toplevel_uart.sv:189.9-189.43|src/toplevel_uart.sv:189.5-193.8" *) Y_o : sine;
+  assign _130_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _128_ : 30'h00000000;
+  assign _132_ = _133_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _130_ : _128_;
+  assign _133_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _134_ = _135_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _132_ : _128_;
+  assign _136_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _134_ : 30'h00000000;
+  assign _138_ = _139_ ? (* src = "src/toplevel_uart.sv:189.9-189.43|src/toplevel_uart.sv:189.5-193.8" *) X_o : cosine;
+  assign _140_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _138_ : 30'h00000000;
+  assign _142_ = _143_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _140_ : _138_;
+  assign _143_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _144_ = _145_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _142_ : _138_;
+  assign _146_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _144_ : 30'h00000000;
+  assign _148_ = _149_ ? (* src = "src/toplevel_uart.sv:189.9-189.43|src/toplevel_uart.sv:189.5-193.8" *) _036_ : theta;
+  assign _150_ = _151_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 30'h00000000 : _148_;
+  assign _152_ = _153_ ? (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) _150_ : _148_;
+  assign _153_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _154_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _152_ : 30'h00000000;
+  assign _156_ = _157_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _154_ : _152_;
+  assign _157_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _158_ = _159_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _156_ : _152_;
+  assign _160_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _158_ : 30'h00000000;
+  assign _162_ = _163_ ? (* src = "src/toplevel_uart.sv:221.13-221.26|src/toplevel_uart.sv:221.9-221.50" *) next_symbol : symbol;
+  function [1:0] _527_;
     input [1:0] a;
     input [3:0] b;
     input [1:0] s;
@@ -3400,23 +3413,23 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _514_ = b[1:0];
+        _527_ = b[1:0];
       2'b1?:
-        _514_ = b[3:2];
+        _527_ = b[3:2];
       default:
-        _514_ = a;
+        _527_ = a;
     endcase
   endfunction
-  assign _156_ = _514_(symbol, { next_symbol, _154_ }, { _158_, _157_ });
-  assign _157_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _158_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _159_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _156_ : 2'h0;
-  assign _161_ = _162_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _159_ : _156_;
-  assign _162_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _163_ = _164_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _161_ : _156_;
-  assign _165_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _163_ : 2'h0;
-  assign _167_ = _168_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) _397_[8:0] : symbol_counter;
-  function [8:0] _523_;
+  assign _164_ = _527_(symbol, { next_symbol, _162_ }, { _166_, _165_ });
+  assign _165_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _166_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _167_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _164_ : 2'h0;
+  assign _169_ = _170_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _167_ : _164_;
+  assign _170_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _171_ = _172_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _169_ : _164_;
+  assign _173_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _171_ : 2'h0;
+  assign _175_ = _176_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) _405_[8:0] : symbol_counter;
+  function [8:0] _536_;
     input [8:0] a;
     input [17:0] b;
     input [1:0] s;
@@ -3424,197 +3437,197 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _523_ = b[8:0];
+        _536_ = b[8:0];
       2'b1?:
-        _523_ = b[17:9];
+        _536_ = b[17:9];
       default:
-        _523_ = a;
+        _536_ = a;
     endcase
   endfunction
-  assign _169_ = _523_(symbol_counter, { _171_, _167_ }, { _173_, _170_ });
-  assign _170_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _171_ = _172_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 9'h143 : symbol_counter;
-  assign _173_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _174_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _169_ : 9'h143;
-  assign _176_ = _177_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _174_ : _169_;
-  assign _177_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _178_ = _179_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _176_ : _169_;
-  assign _180_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _178_ : 9'h143;
-  assign _182_ = _183_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) 26'h0000000 : _037_[25:0];
-  assign _184_ = _185_ ? (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) _182_ : cycle_counter;
-  assign _185_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _186_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _184_ : 26'h0000000;
-  assign _188_ = _189_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _186_ : _184_;
-  assign _189_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _190_ = _191_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _188_ : _184_;
-  assign _192_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _190_ : 26'h0000000;
-  assign _194_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) 1'h1 : 1'h0;
-  assign _196_ = _197_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _194_ : start_encoding;
-  assign _197_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _198_ = _199_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _196_ : start_encoding;
-  assign _200_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _198_ : 1'h0;
-  assign _202_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) encoder_reset : 1'h0;
-  assign _204_ = _205_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _202_ : encoder_reset;
-  assign _205_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _206_ = _207_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _204_ : encoder_reset;
-  assign _208_ = _209_ ? (* src = "src/toplevel_uart.sv:331.9-331.23|src/toplevel_uart.sv:331.5-333.8" *) 1'h1 : _206_;
-  assign _210_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _208_ : 1'h0;
-  assign _212_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) cordic_Q : 30'h00000000;
-  assign _214_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) cordic_I : 30'h136e978d;
-  assign _216_ = _217_ ? (* src = "src/toplevel_uart.sv:311.31-311.31|src/toplevel_uart.sv:269.7-328.14" *) data[15:14] : OSR_3;
-  assign _217_ = addr == (* src = "src/toplevel_uart.sv:311.31-311.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h09;
-  assign _218_ = _219_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _216_ : OSR_3;
-  assign _220_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _218_ : 2'h1;
-  assign _222_ = _223_ ? (* src = "src/toplevel_uart.sv:306.31-306.31|src/toplevel_uart.sv:269.7-328.14" *) data[15:14] : OSR_2;
-  assign _223_ = addr == (* src = "src/toplevel_uart.sv:306.31-306.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h07;
-  assign _224_ = _225_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _222_ : OSR_2;
-  assign _226_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _224_ : 2'h1;
-  assign _228_ = _229_ ? (* src = "src/toplevel_uart.sv:301.31-301.31|src/toplevel_uart.sv:269.7-328.14" *) data[15:14] : OSR_1;
-  assign _229_ = addr == (* src = "src/toplevel_uart.sv:301.31-301.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h05;
-  assign _230_ = _231_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _228_ : OSR_1;
-  assign _232_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _230_ : 2'h1;
-  assign _234_ = _235_ ? (* src = "src/toplevel_uart.sv:296.31-296.31|src/toplevel_uart.sv:269.7-328.14" *) data[15:14] : OSR_0;
-  assign _235_ = addr == (* src = "src/toplevel_uart.sv:296.31-296.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h03;
-  assign _236_ = _237_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _234_ : OSR_0;
-  assign _238_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _236_ : 2'h1;
-  assign _240_ = _241_ ? (* src = "src/toplevel_uart.sv:305.12-305.12|src/toplevel_uart.sv:269.7-328.14" *) data : f_c2[15:0];
-  assign _241_ = addr == (* src = "src/toplevel_uart.sv:305.12-305.12|src/toplevel_uart.sv:269.7-328.14" *) 8'h06;
-  assign _242_ = _243_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _240_ : f_c2[15:0];
-  assign _244_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _242_ : 16'h0709;
-  assign _246_ = _247_ ? (* src = "src/toplevel_uart.sv:300.12-300.12|src/toplevel_uart.sv:269.7-328.14" *) data : f_c1[15:0];
-  assign _247_ = addr == (* src = "src/toplevel_uart.sv:300.12-300.12|src/toplevel_uart.sv:269.7-328.14" *) 8'h04;
-  assign _248_ = _249_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _246_ : f_c1[15:0];
-  assign _250_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _248_ : 16'h0707;
-  assign _252_ = _253_ ? (* src = "src/toplevel_uart.sv:293.36-293.36|src/toplevel_uart.sv:269.7-328.14" *) data : f_c0[15:0];
-  assign _253_ = addr == (* src = "src/toplevel_uart.sv:293.36-293.36|src/toplevel_uart.sv:269.7-328.14" *) 8'h02;
-  assign _254_ = _255_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _252_ : f_c0[15:0];
-  assign _256_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _254_ : 16'h0706;
-  assign _258_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) 1'h1 : 1'h0;
-  assign _260_ = _261_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _258_ : 1'h1;
-  assign _261_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _262_ = _263_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _260_ : 1'h1;
-  assign _264_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _262_ : 1'h0;
-  assign _266_ = _267_ ? (* src = "src/toplevel_uart.sv:323.41-323.41|src/toplevel_uart.sv:269.7-328.14" *) data[10:5] : power;
-  assign _267_ = addr == (* src = "src/toplevel_uart.sv:323.41-323.41|src/toplevel_uart.sv:269.7-328.14" *) 8'h0e;
-  assign _268_ = _269_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _266_ : power;
-  assign _270_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _268_ : 6'h00;
-  assign _272_ = _273_ ? (* src = "src/toplevel_uart.sv:319.43-319.43|src/toplevel_uart.sv:269.7-328.14" *) data[15:4] : callsign[11:0];
-  assign _273_ = addr == (* src = "src/toplevel_uart.sv:319.43-319.43|src/toplevel_uart.sv:269.7-328.14" *) 8'h0c;
-  assign _274_ = _275_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _272_ : callsign[11:0];
-  assign _276_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _274_ : 12'h000;
-  assign _278_ = _279_ ? (* src = "src/toplevel_uart.sv:310.12-310.12|src/toplevel_uart.sv:269.7-328.14" *) data : f_c3[15:0];
-  assign _279_ = addr == (* src = "src/toplevel_uart.sv:310.12-310.12|src/toplevel_uart.sv:269.7-328.14" *) 8'h08;
-  assign _280_ = _281_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _278_ : f_c3[15:0];
-  assign _282_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _280_ : 16'h070b;
-  function [7:0] _598_;
+  assign _177_ = _536_(symbol_counter, { _179_, _175_ }, { _181_, _178_ });
+  assign _178_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _179_ = _180_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 9'h143 : symbol_counter;
+  assign _181_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _182_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _177_ : 9'h143;
+  assign _184_ = _185_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _182_ : _177_;
+  assign _185_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _186_ = _187_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _184_ : _177_;
+  assign _188_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _186_ : 9'h143;
+  assign _190_ = _191_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) 26'h0000000 : _037_[25:0];
+  assign _192_ = _193_ ? (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) _190_ : cycle_counter;
+  assign _193_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _194_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _192_ : 26'h0000000;
+  assign _196_ = _197_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _194_ : _192_;
+  assign _197_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _198_ = _199_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _196_ : _192_;
+  assign _200_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _198_ : 26'h0000000;
+  assign _202_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) 1'h1 : 1'h0;
+  assign _204_ = _205_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _202_ : start_encoding;
+  assign _205_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _206_ = _207_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _204_ : start_encoding;
+  assign _208_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _206_ : 1'h0;
+  assign _210_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) encoder_reset : 1'h0;
+  assign _212_ = _213_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _210_ : encoder_reset;
+  assign _213_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _214_ = _215_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _212_ : encoder_reset;
+  assign _216_ = _217_ ? (* src = "src/toplevel_uart.sv:332.9-332.23|src/toplevel_uart.sv:332.5-334.8" *) 1'h1 : _214_;
+  assign _218_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _216_ : 1'h0;
+  assign _220_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) cordic_Q : 30'h00000000;
+  assign _222_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) cordic_I : 30'h136e978d;
+  assign _224_ = _225_ ? (* src = "src/toplevel_uart.sv:312.31-312.31|src/toplevel_uart.sv:269.7-329.14" *) data[15:14] : OSR_3;
+  assign _225_ = addr == (* src = "src/toplevel_uart.sv:312.31-312.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h09;
+  assign _226_ = _227_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _224_ : OSR_3;
+  assign _228_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _226_ : 2'h1;
+  assign _230_ = _231_ ? (* src = "src/toplevel_uart.sv:307.31-307.31|src/toplevel_uart.sv:269.7-329.14" *) data[15:14] : OSR_2;
+  assign _231_ = addr == (* src = "src/toplevel_uart.sv:307.31-307.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h07;
+  assign _232_ = _233_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _230_ : OSR_2;
+  assign _234_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _232_ : 2'h1;
+  assign _236_ = _237_ ? (* src = "src/toplevel_uart.sv:302.31-302.31|src/toplevel_uart.sv:269.7-329.14" *) data[15:14] : OSR_1;
+  assign _237_ = addr == (* src = "src/toplevel_uart.sv:302.31-302.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h05;
+  assign _238_ = _239_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _236_ : OSR_1;
+  assign _240_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _238_ : 2'h1;
+  assign _242_ = _243_ ? (* src = "src/toplevel_uart.sv:297.31-297.31|src/toplevel_uart.sv:269.7-329.14" *) data[15:14] : OSR_0;
+  assign _243_ = addr == (* src = "src/toplevel_uart.sv:297.31-297.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h03;
+  assign _244_ = _245_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _242_ : OSR_0;
+  assign _246_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _244_ : 2'h1;
+  assign _248_ = _249_ ? (* src = "src/toplevel_uart.sv:306.12-306.12|src/toplevel_uart.sv:269.7-329.14" *) data : f_c2[15:0];
+  assign _249_ = addr == (* src = "src/toplevel_uart.sv:306.12-306.12|src/toplevel_uart.sv:269.7-329.14" *) 8'h06;
+  assign _250_ = _251_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _248_ : f_c2[15:0];
+  assign _252_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _250_ : 16'h0709;
+  assign _254_ = _255_ ? (* src = "src/toplevel_uart.sv:301.12-301.12|src/toplevel_uart.sv:269.7-329.14" *) data : f_c1[15:0];
+  assign _255_ = addr == (* src = "src/toplevel_uart.sv:301.12-301.12|src/toplevel_uart.sv:269.7-329.14" *) 8'h04;
+  assign _256_ = _257_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _254_ : f_c1[15:0];
+  assign _258_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _256_ : 16'h0707;
+  assign _260_ = _261_ ? (* src = "src/toplevel_uart.sv:294.36-294.36|src/toplevel_uart.sv:269.7-329.14" *) data : f_c0[15:0];
+  assign _261_ = addr == (* src = "src/toplevel_uart.sv:294.36-294.36|src/toplevel_uart.sv:269.7-329.14" *) 8'h02;
+  assign _262_ = _263_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _260_ : f_c0[15:0];
+  assign _264_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _262_ : 16'h0706;
+  assign _266_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) 1'h1 : 1'h0;
+  assign _268_ = _269_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _266_ : 1'h1;
+  assign _269_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _270_ = _271_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _268_ : 1'h1;
+  assign _272_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _270_ : 1'h0;
+  assign _274_ = _275_ ? (* src = "src/toplevel_uart.sv:324.41-324.41|src/toplevel_uart.sv:269.7-329.14" *) data[10:5] : power;
+  assign _275_ = addr == (* src = "src/toplevel_uart.sv:324.41-324.41|src/toplevel_uart.sv:269.7-329.14" *) 8'h0e;
+  assign _276_ = _277_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _274_ : power;
+  assign _278_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _276_ : 6'h00;
+  assign _280_ = _281_ ? (* src = "src/toplevel_uart.sv:320.43-320.43|src/toplevel_uart.sv:269.7-329.14" *) data[15:4] : callsign[11:0];
+  assign _281_ = addr == (* src = "src/toplevel_uart.sv:320.43-320.43|src/toplevel_uart.sv:269.7-329.14" *) 8'h0c;
+  assign _282_ = _283_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _280_ : callsign[11:0];
+  assign _284_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _282_ : 12'h000;
+  assign _286_ = _287_ ? (* src = "src/toplevel_uart.sv:311.12-311.12|src/toplevel_uart.sv:269.7-329.14" *) data : f_c3[15:0];
+  assign _287_ = addr == (* src = "src/toplevel_uart.sv:311.12-311.12|src/toplevel_uart.sv:269.7-329.14" *) 8'h08;
+  assign _288_ = _289_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _286_ : f_c3[15:0];
+  assign _290_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _288_ : 16'h070b;
+  function [7:0] _611_;
     input [7:0] a;
     input [31:0] b;
     input [3:0] s;
     (* full_case = 32'd1 *)
-    (* src = "src/toplevel_uart.sv:395.27-395.27|src/toplevel_uart.sv:392.5-397.12" *)
+    (* src = "src/toplevel_uart.sv:397.27-397.27|src/toplevel_uart.sv:394.5-399.12" *)
     (* parallel_case *)
     casez (s)
       4'b???1:
-        _598_ = b[7:0];
+        _611_ = b[7:0];
       4'b??1?:
-        _598_ = b[15:8];
+        _611_ = b[15:8];
       4'b?1??:
-        _598_ = b[23:16];
+        _611_ = b[23:16];
       4'b1???:
-        _598_ = b[31:24];
+        _611_ = b[31:24];
       default:
-        _598_ = a;
+        _611_ = a;
     endcase
   endfunction
-  assign _284_ = _598_(8'hxx, 32'd524255231, { _288_, _287_, _286_, _285_ });
-  assign _285_ = _034_ == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:395.27-395.27|src/toplevel_uart.sv:392.5-397.12" *) 2'h3;
-  assign _286_ = _034_ == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:394.26-394.26|src/toplevel_uart.sv:392.5-397.12" *) 2'h2;
-  assign _287_ = _034_ == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:393.26-393.26|src/toplevel_uart.sv:392.5-397.12" *) 2'h1;
-  assign _288_ = ! (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:392.21-392.21|src/toplevel_uart.sv:392.5-397.12" *) _034_;
-  function [1:0] _603_;
+  assign _292_ = _611_(8'hxx, 32'd524255231, { _296_, _295_, _294_, _293_ });
+  assign _293_ = _034_ == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:397.27-397.27|src/toplevel_uart.sv:394.5-399.12" *) 2'h3;
+  assign _294_ = _034_ == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:396.26-396.26|src/toplevel_uart.sv:394.5-399.12" *) 2'h2;
+  assign _295_ = _034_ == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:395.26-395.26|src/toplevel_uart.sv:394.5-399.12" *) 2'h1;
+  assign _296_ = ! (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:394.21-394.21|src/toplevel_uart.sv:394.5-399.12" *) _034_;
+  function [1:0] _616_;
     input [1:0] a;
     input [7:0] b;
     input [3:0] s;
     (* full_case = 32'd1 *)
-    (* src = "src/toplevel_uart.sv:380.10-380.10|src/toplevel_uart.sv:368.5-390.12" *)
+    (* src = "src/toplevel_uart.sv:382.10-382.10|src/toplevel_uart.sv:370.5-392.12" *)
     (* parallel_case *)
     casez (s)
       4'b???1:
-        _603_ = b[1:0];
+        _616_ = b[1:0];
       4'b??1?:
-        _603_ = b[3:2];
+        _616_ = b[3:2];
       4'b?1??:
-        _603_ = b[5:4];
+        _616_ = b[5:4];
       4'b1???:
-        _603_ = b[7:6];
+        _616_ = b[7:6];
       default:
-        _603_ = a;
+        _616_ = a;
     endcase
   endfunction
-  assign _289_ = _603_(2'hx, { OSR_0, OSR_1, OSR_2, OSR_3 }, { _293_, _292_, _291_, _290_ });
-  assign _290_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:380.10-380.10|src/toplevel_uart.sv:368.5-390.12" *) 2'h3;
-  assign _291_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:376.10-376.10|src/toplevel_uart.sv:368.5-390.12" *) 2'h2;
-  assign _292_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:372.10-372.10|src/toplevel_uart.sv:368.5-390.12" *) 2'h1;
-  assign _293_ = ! (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:368.18-368.18|src/toplevel_uart.sv:368.5-390.12" *) symbol;
-  function [29:0] _608_;
+  assign _297_ = _616_(2'hx, { OSR_0, OSR_1, OSR_2, OSR_3 }, { _301_, _300_, _299_, _298_ });
+  assign _298_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:382.10-382.10|src/toplevel_uart.sv:370.5-392.12" *) 2'h3;
+  assign _299_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:378.10-378.10|src/toplevel_uart.sv:370.5-392.12" *) 2'h2;
+  assign _300_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:374.10-374.10|src/toplevel_uart.sv:370.5-392.12" *) 2'h1;
+  assign _301_ = ! (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:370.18-370.18|src/toplevel_uart.sv:370.5-392.12" *) symbol;
+  function [29:0] _621_;
     input [29:0] a;
     input [119:0] b;
     input [3:0] s;
     (* full_case = 32'd1 *)
-    (* src = "src/toplevel_uart.sv:380.10-380.10|src/toplevel_uart.sv:368.5-390.12" *)
+    (* src = "src/toplevel_uart.sv:382.10-382.10|src/toplevel_uart.sv:370.5-392.12" *)
     (* parallel_case *)
     casez (s)
       4'b???1:
-        _608_ = b[29:0];
+        _621_ = b[29:0];
       4'b??1?:
-        _608_ = b[59:30];
+        _621_ = b[59:30];
       4'b?1??:
-        _608_ = b[89:60];
+        _621_ = b[89:60];
       4'b1???:
-        _608_ = b[119:90];
+        _621_ = b[119:90];
       default:
-        _608_ = a;
+        _621_ = a;
     endcase
   endfunction
-  assign _294_ = _608_(30'hxxxxxxxx, { f_c0, f_c1, f_c2, f_c3 }, { _298_, _297_, _296_, _295_ });
-  assign _295_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:380.10-380.10|src/toplevel_uart.sv:368.5-390.12" *) 2'h3;
-  assign _296_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:376.10-376.10|src/toplevel_uart.sv:368.5-390.12" *) 2'h2;
-  assign _297_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:372.10-372.10|src/toplevel_uart.sv:368.5-390.12" *) 2'h1;
-  assign _298_ = ! (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:368.18-368.18|src/toplevel_uart.sv:368.5-390.12" *) symbol;
-  assign _299_ = _300_ ? (* src = "src/toplevel_uart.sv:320.42-320.42|src/toplevel_uart.sv:269.7-328.14" *) data[15:1] : locator[19:5];
-  assign _300_ = addr == (* src = "src/toplevel_uart.sv:320.42-320.42|src/toplevel_uart.sv:269.7-328.14" *) 8'h0d;
-  assign _301_ = _302_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _299_ : locator[19:5];
-  assign _303_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _301_ : 15'h0000;
-  assign _305_ = _306_ ? (* src = "src/toplevel_uart.sv:315.12-315.12|src/toplevel_uart.sv:269.7-328.14" *) data[15:4] : callsign[35:24];
-  assign _306_ = addr == (* src = "src/toplevel_uart.sv:315.12-315.12|src/toplevel_uart.sv:269.7-328.14" *) 8'h0a;
-  assign _307_ = _308_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _305_ : callsign[35:24];
-  assign _309_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _307_ : 12'h000;
-  assign _311_ = _312_ ? (* src = "src/toplevel_uart.sv:311.31-311.31|src/toplevel_uart.sv:269.7-328.14" *) data[13:0] : f_c3[29:16];
-  assign _312_ = addr == (* src = "src/toplevel_uart.sv:311.31-311.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h09;
-  assign _313_ = _314_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _311_ : f_c3[29:16];
-  assign _315_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _313_ : 14'h2180;
-  assign _317_ = _318_ ? (* src = "src/toplevel_uart.sv:318.43-318.43|src/toplevel_uart.sv:269.7-328.14" *) data[15:4] : callsign[23:12];
-  assign _318_ = addr == (* src = "src/toplevel_uart.sv:318.43-318.43|src/toplevel_uart.sv:269.7-328.14" *) 8'h0b;
-  assign _319_ = _320_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _317_ : callsign[23:12];
-  assign _321_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _319_ : 12'h000;
-  assign _323_ = _324_ ? (* src = "src/toplevel_uart.sv:306.31-306.31|src/toplevel_uart.sv:269.7-328.14" *) data[13:0] : f_c2[29:16];
-  assign _324_ = addr == (* src = "src/toplevel_uart.sv:306.31-306.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h07;
-  assign _325_ = _326_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _323_ : f_c2[29:16];
-  assign _327_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _325_ : 14'h2180;
-  assign _329_ = _330_ ? (* src = "src/toplevel_uart.sv:301.31-301.31|src/toplevel_uart.sv:269.7-328.14" *) data[13:0] : f_c1[29:16];
-  assign _330_ = addr == (* src = "src/toplevel_uart.sv:301.31-301.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h05;
-  assign _331_ = _332_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _329_ : f_c1[29:16];
-  assign _333_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _331_ : 14'h2180;
-  assign _335_ = _336_ ? (* src = "src/toplevel_uart.sv:296.31-296.31|src/toplevel_uart.sv:269.7-328.14" *) data[13:0] : f_c0[29:16];
-  assign _336_ = addr == (* src = "src/toplevel_uart.sv:296.31-296.31|src/toplevel_uart.sv:269.7-328.14" *) 8'h03;
-  assign _337_ = _338_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _335_ : f_c0[29:16];
-  assign _339_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _337_ : 14'h2180;
-  assign _341_ = _342_ ? (* src = "src/toplevel_uart.sv:323.41-323.41|src/toplevel_uart.sv:269.7-328.14" *) data[15:11] : locator[4:0];
-  assign _342_ = addr == (* src = "src/toplevel_uart.sv:323.41-323.41|src/toplevel_uart.sv:269.7-328.14" *) 8'h0e;
-  assign _343_ = _344_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _341_ : locator[4:0];
-  assign _345_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _343_ : 5'h00;
-  assign _347_ = _348_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:253.17-253.38|src/toplevel_uart.sv:253.13-256.63" *) OSR : _399_[7:0];
-  function [7:0] _646_;
+  assign _302_ = _621_(30'hxxxxxxxx, { f_c0, f_c1, f_c2, f_c3 }, { _306_, _305_, _304_, _303_ });
+  assign _303_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:382.10-382.10|src/toplevel_uart.sv:370.5-392.12" *) 2'h3;
+  assign _304_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:378.10-378.10|src/toplevel_uart.sv:370.5-392.12" *) 2'h2;
+  assign _305_ = symbol == (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:374.10-374.10|src/toplevel_uart.sv:370.5-392.12" *) 2'h1;
+  assign _306_ = ! (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:370.18-370.18|src/toplevel_uart.sv:370.5-392.12" *) symbol;
+  assign _307_ = _308_ ? (* src = "src/toplevel_uart.sv:321.42-321.42|src/toplevel_uart.sv:269.7-329.14" *) data[15:1] : locator[19:5];
+  assign _308_ = addr == (* src = "src/toplevel_uart.sv:321.42-321.42|src/toplevel_uart.sv:269.7-329.14" *) 8'h0d;
+  assign _309_ = _310_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _307_ : locator[19:5];
+  assign _311_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _309_ : 15'h0000;
+  assign _313_ = _314_ ? (* src = "src/toplevel_uart.sv:316.12-316.12|src/toplevel_uart.sv:269.7-329.14" *) data[15:4] : callsign[35:24];
+  assign _314_ = addr == (* src = "src/toplevel_uart.sv:316.12-316.12|src/toplevel_uart.sv:269.7-329.14" *) 8'h0a;
+  assign _315_ = _316_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _313_ : callsign[35:24];
+  assign _317_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _315_ : 12'h000;
+  assign _319_ = _320_ ? (* src = "src/toplevel_uart.sv:312.31-312.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c3[29:16];
+  assign _320_ = addr == (* src = "src/toplevel_uart.sv:312.31-312.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h09;
+  assign _321_ = _322_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _319_ : f_c3[29:16];
+  assign _323_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _321_ : 14'h2180;
+  assign _325_ = _326_ ? (* src = "src/toplevel_uart.sv:319.43-319.43|src/toplevel_uart.sv:269.7-329.14" *) data[15:4] : callsign[23:12];
+  assign _326_ = addr == (* src = "src/toplevel_uart.sv:319.43-319.43|src/toplevel_uart.sv:269.7-329.14" *) 8'h0b;
+  assign _327_ = _328_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _325_ : callsign[23:12];
+  assign _329_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _327_ : 12'h000;
+  assign _331_ = _332_ ? (* src = "src/toplevel_uart.sv:307.31-307.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c2[29:16];
+  assign _332_ = addr == (* src = "src/toplevel_uart.sv:307.31-307.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h07;
+  assign _333_ = _334_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _331_ : f_c2[29:16];
+  assign _335_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _333_ : 14'h2180;
+  assign _337_ = _338_ ? (* src = "src/toplevel_uart.sv:302.31-302.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c1[29:16];
+  assign _338_ = addr == (* src = "src/toplevel_uart.sv:302.31-302.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h05;
+  assign _339_ = _340_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _337_ : f_c1[29:16];
+  assign _341_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _339_ : 14'h2180;
+  assign _343_ = _344_ ? (* src = "src/toplevel_uart.sv:297.31-297.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c0[29:16];
+  assign _344_ = addr == (* src = "src/toplevel_uart.sv:297.31-297.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h03;
+  assign _345_ = _346_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _343_ : f_c0[29:16];
+  assign _347_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _345_ : 14'h2180;
+  assign _349_ = _350_ ? (* src = "src/toplevel_uart.sv:324.41-324.41|src/toplevel_uart.sv:269.7-329.14" *) data[15:11] : locator[4:0];
+  assign _350_ = addr == (* src = "src/toplevel_uart.sv:324.41-324.41|src/toplevel_uart.sv:269.7-329.14" *) 8'h0e;
+  assign _351_ = _352_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _349_ : locator[4:0];
+  assign _353_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _351_ : 5'h00;
+  assign _355_ = _356_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:253.17-253.38|src/toplevel_uart.sv:253.13-256.63" *) OSR : _407_[7:0];
+  function [7:0] _659_;
     input [7:0] a;
     input [23:0] b;
     input [2:0] s;
@@ -3622,21 +3635,21 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       3'b??1:
-        _646_ = b[7:0];
+        _659_ = b[7:0];
       3'b?1?:
-        _646_ = b[15:8];
+        _659_ = b[15:8];
       3'b1??:
-        _646_ = b[23:16];
+        _659_ = b[23:16];
       default:
-        _646_ = a;
+        _659_ = a;
     endcase
   endfunction
-  assign _349_ = _646_(transmit_counter, { _352_, _398_[7:0], _347_ }, { _354_, _351_, _350_ });
-  assign _350_ = transmit_state == (* src = "src/toplevel_uart.sv:248.14-248.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd2;
-  assign _351_ = transmit_state == (* src = "src/toplevel_uart.sv:240.14-240.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd1;
-  assign _352_ = _353_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) OSR : transmit_counter;
-  assign _354_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
-  function [7:0] _651_;
+  assign _357_ = _659_(transmit_counter, { _360_, _406_[7:0], _355_ }, { _362_, _359_, _358_ });
+  assign _358_ = transmit_state == (* src = "src/toplevel_uart.sv:248.14-248.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd2;
+  assign _359_ = transmit_state == (* src = "src/toplevel_uart.sv:240.14-240.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd1;
+  assign _360_ = _361_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) OSR : transmit_counter;
+  assign _362_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
+  function [7:0] _664_;
     input [7:0] a;
     input [15:0] b;
     input [1:0] s;
@@ -3644,19 +3657,24 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _651_ = b[7:0];
+        _664_ = b[7:0];
       2'b1?:
-        _651_ = b[15:8];
+        _664_ = b[15:8];
       default:
-        _651_ = a;
+        _664_ = a;
     endcase
   endfunction
-  assign _355_ = _651_(transmit_counter, { _357_, _349_ }, { _359_, _356_ });
-  assign _356_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _357_ = _358_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) OSR : transmit_counter;
-  assign _359_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _360_ = _361_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:253.17-253.38|src/toplevel_uart.sv:253.13-256.63" *) 32'd1 : transmit_state;
-  function [31:0] _656_;
+  assign _363_ = _664_(transmit_counter, { _365_, _357_ }, { _367_, _364_ });
+  assign _364_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _365_ = _366_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) OSR : transmit_counter;
+  assign _367_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _368_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-290.14" *) _363_ : 8'hff;
+  assign _370_ = _371_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) _368_ : _363_;
+  assign _371_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-329.14" *) addr;
+  assign _372_ = _373_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _370_ : _363_;
+  assign _374_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _372_ : 8'hff;
+  assign _376_ = _377_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:253.17-253.38|src/toplevel_uart.sv:253.13-256.63" *) 32'd1 : transmit_state;
+  function [31:0] _674_;
     input [31:0] a;
     input [95:0] b;
     input [2:0] s;
@@ -3664,22 +3682,22 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       3'b??1:
-        _656_ = b[31:0];
+        _674_ = b[31:0];
       3'b?1?:
-        _656_ = b[63:32];
+        _674_ = b[63:32];
       3'b1??:
-        _656_ = b[95:64];
+        _674_ = b[95:64];
       default:
-        _656_ = a;
+        _674_ = a;
     endcase
   endfunction
-  assign _362_ = _656_(transmit_state, { _367_, _364_, _360_ }, { _369_, _366_, _363_ });
-  assign _363_ = transmit_state == (* src = "src/toplevel_uart.sv:248.14-248.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd2;
-  assign _364_ = _365_ ? (* src = "src/toplevel_uart.sv:244.17-244.49|src/toplevel_uart.sv:244.13-247.16" *) 32'd2 : transmit_state;
-  assign _366_ = transmit_state == (* src = "src/toplevel_uart.sv:240.14-240.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd1;
-  assign _367_ = _368_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) 32'd1 : transmit_state;
-  assign _369_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
-  function [31:0] _662_;
+  assign _378_ = _674_(transmit_state, { _383_, _380_, _376_ }, { _385_, _382_, _379_ });
+  assign _379_ = transmit_state == (* src = "src/toplevel_uart.sv:248.14-248.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd2;
+  assign _380_ = _381_ ? (* src = "src/toplevel_uart.sv:244.17-244.49|src/toplevel_uart.sv:244.13-247.16" *) 32'd2 : transmit_state;
+  assign _382_ = transmit_state == (* src = "src/toplevel_uart.sv:240.14-240.14|src/toplevel_uart.sv:231.9-258.16" *) 32'd1;
+  assign _383_ = _384_ ? (* src = "src/toplevel_uart.sv:234.17-234.30|src/toplevel_uart.sv:234.13-239.16" *) 32'd1 : transmit_state;
+  assign _385_ = ! (* src = "src/toplevel_uart.sv:231.30-231.30|src/toplevel_uart.sv:231.9-258.16" *) transmit_state;
+  function [31:0] _680_;
     input [31:0] a;
     input [63:0] b;
     input [1:0] s;
@@ -3687,18 +3705,18 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       2'b?1:
-        _662_ = b[31:0];
+        _680_ = b[31:0];
       2'b1?:
-        _662_ = b[63:32];
+        _680_ = b[63:32];
       default:
-        _662_ = a;
+        _680_ = a;
     endcase
   endfunction
-  assign _370_ = _662_(transmit_state, { _372_, _362_ }, { _374_, _371_ });
-  assign _371_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _372_ = _373_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 32'd0 : transmit_state;
-  assign _374_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  function [31:0] _666_;
+  assign _386_ = _680_(transmit_state, { _388_, _378_ }, { _390_, _387_ });
+  assign _387_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _388_ = _389_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 32'd0 : transmit_state;
+  assign _390_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  function [31:0] _684_;
     input [31:0] a;
     input [159:0] b;
     input [4:0] s;
@@ -3706,37 +3724,32 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     (* parallel_case *)
     casez (s)
       5'b????1:
-        _666_ = b[31:0];
+        _684_ = b[31:0];
       5'b???1?:
-        _666_ = b[63:32];
+        _684_ = b[63:32];
       5'b??1??:
-        _666_ = b[95:64];
+        _684_ = b[95:64];
       5'b?1???:
-        _666_ = b[127:96];
+        _684_ = b[127:96];
       5'b1????:
-        _666_ = b[159:128];
+        _684_ = b[159:128];
       default:
-        _666_ = a;
+        _684_ = a;
     endcase
   endfunction
-  assign _375_ = _666_(state, { _386_, 32'h00000002, _382_, _379_, 32'h00000004 }, { _388_, _385_, _384_, _381_, _376_ });
-  assign _376_ = state == (* src = "src/toplevel_uart.sv:260.10-260.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd4;
-  assign _377_ = _378_ ? (* src = "src/toplevel_uart.sv:228.15-228.34|src/toplevel_uart.sv:228.11-228.52" *) 32'd4 : state;
-  assign _379_ = _380_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) _377_ : state;
-  assign _381_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
-  assign _382_ = _383_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 32'd3 : state;
-  assign _384_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
-  assign _385_ = state == (* src = "src/toplevel_uart.sv:201.10-201.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd1;
-  assign _386_ = _387_ ? (* src = "src/toplevel_uart.sv:197.13-197.18|src/toplevel_uart.sv:197.9-200.12" *) 32'd1 : state;
-  assign _388_ = ! (* src = "src/toplevel_uart.sv:195.17-195.17|src/toplevel_uart.sv:195.5-266.12" *) state;
-  assign _389_ = data[0] ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:271.15-271.30|src/toplevel_uart.sv:271.11-289.14" *) _375_ : 32'd0;
-  assign _391_ = _392_ ? (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) _389_ : _375_;
-  assign _392_ = ! (* src = "src/toplevel_uart.sv:269.18-269.18|src/toplevel_uart.sv:269.7-328.14" *) addr;
-  assign _393_ = _394_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-329.8" *) _391_ : _375_;
-  assign _395_ = reset ? (* src = "src/toplevel_uart.sv:335.9-335.19|src/toplevel_uart.sv:335.5-364.8" *) _393_ : 32'd0;
-  assign _397_ = symbol_counter - (* src = "src/toplevel_uart.sv:226.30-226.48" *) 32'd2;
-  assign _398_ = transmit_counter - (* src = "src/toplevel_uart.sv:243.33-243.53" *) 32'd1;
-  assign _399_ = transmit_counter - (* src = "src/toplevel_uart.sv:256.42-256.62" *) 32'd1;
+  assign _391_ = _684_(state, { _402_, 32'h00000002, _398_, _395_, 32'h00000004 }, { _404_, _401_, _400_, _397_, _392_ });
+  assign _392_ = state == (* src = "src/toplevel_uart.sv:260.10-260.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd4;
+  assign _393_ = _394_ ? (* src = "src/toplevel_uart.sv:228.15-228.34|src/toplevel_uart.sv:228.11-228.52" *) 32'd4 : state;
+  assign _395_ = _396_ ? (* full_case = 32'd1 *) (* src = "src/toplevel_uart.sv:223.13-223.47|src/toplevel_uart.sv:223.9-229.53" *) _393_ : state;
+  assign _397_ = state == (* src = "src/toplevel_uart.sv:216.10-216.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd3;
+  assign _398_ = _399_ ? (* src = "src/toplevel_uart.sv:208.13-208.36|src/toplevel_uart.sv:208.9-215.12" *) 32'd3 : state;
+  assign _400_ = state == (* src = "src/toplevel_uart.sv:203.36-203.36|src/toplevel_uart.sv:195.5-266.12" *) 32'd2;
+  assign _401_ = state == (* src = "src/toplevel_uart.sv:201.10-201.10|src/toplevel_uart.sv:195.5-266.12" *) 32'd1;
+  assign _402_ = _403_ ? (* src = "src/toplevel_uart.sv:197.13-197.18|src/toplevel_uart.sv:197.9-200.12" *) 32'd1 : state;
+  assign _404_ = ! (* src = "src/toplevel_uart.sv:195.17-195.17|src/toplevel_uart.sv:195.5-266.12" *) state;
+  assign _405_ = symbol_counter - (* src = "src/toplevel_uart.sv:226.30-226.48" *) 32'd2;
+  assign _406_ = transmit_counter - (* src = "src/toplevel_uart.sv:243.33-243.53" *) 32'd1;
+  assign _407_ = transmit_counter - (* src = "src/toplevel_uart.sv:256.42-256.62" *) 32'd1;
   (* module_not_derived = 32'd1 *)
   (* src = "src/toplevel_uart.sv:114.20-125.4" *)
   cordic_iterative cordic (
@@ -3817,158 +3830,161 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   assign _000_ = _033_;
   assign _018_ = _035_;
   assign _005_ = _034_;
-  assign _033_ = _284_;
-  assign _034_ = _289_;
-  assign _035_ = _294_;
-  assign _302_ = uart_valid;
-  assign _304_ = _042_;
-  assign _021_[19:5] = _303_;
-  assign _308_ = uart_valid;
-  assign _310_ = _042_;
-  assign _006_[35:24] = _309_;
-  assign _314_ = uart_valid;
-  assign _316_ = _042_;
-  assign _017_[29:16] = _315_;
-  assign _320_ = uart_valid;
-  assign _322_ = _042_;
-  assign _006_[23:12] = _321_;
-  assign _326_ = uart_valid;
-  assign _328_ = _042_;
-  assign _016_[29:16] = _327_;
-  assign _332_ = uart_valid;
-  assign _334_ = _042_;
-  assign _015_[29:16] = _333_;
-  assign _338_ = uart_valid;
-  assign _340_ = _042_;
-  assign _014_[29:16] = _339_;
-  assign _344_ = uart_valid;
-  assign _346_ = _042_;
-  assign _021_[4:0] = _345_;
-  assign _348_ = _040_;
-  assign _353_ = cordic_strb_o;
-  assign _358_ = _039_;
-  assign _031_ = _355_;
-  assign _361_ = _040_;
-  assign _365_ = _045_;
-  assign _368_ = cordic_strb_o;
-  assign _373_ = _039_;
-  assign _032_ = _370_;
-  assign _378_ = _044_;
-  assign _380_ = _043_;
-  assign _383_ = _039_;
-  assign _387_ = ready;
-  assign _390_ = _041_;
-  assign _394_ = uart_valid;
-  assign _396_ = _042_;
-  assign _026_ = _395_;
-  assign _050_ = _041_;
-  assign _053_ = uart_valid;
-  assign _055_ = _042_;
-  assign _019_ = _054_;
-  assign _057_ = cordic_strb_o;
-  assign _063_ = _041_;
-  assign _067_ = uart_valid;
-  assign _069_ = _042_;
-  assign _020_ = _068_;
-  assign _073_ = cordic_strb_o;
-  assign _078_ = _041_;
-  assign _082_ = uart_valid;
-  assign _084_ = _042_;
-  assign _012_ = _083_;
-  assign _088_ = _045_;
-  assign _094_ = _039_;
-  assign _097_ = _041_;
-  assign _101_ = uart_valid;
-  assign _103_ = _042_;
-  assign _009_ = _102_;
-  assign _105_ = _043_;
-  assign _110_ = ready;
-  assign _113_ = _041_;
-  assign _117_ = uart_valid;
-  assign _119_ = _042_;
-  assign _023_ = _118_;
-  assign _121_ = _046_;
-  assign _123_ = _041_;
-  assign _127_ = uart_valid;
-  assign _129_ = _042_;
-  assign _024_ = _128_;
-  assign _131_ = _046_;
-  assign _133_ = _041_;
-  assign _137_ = uart_valid;
-  assign _139_ = _042_;
-  assign _010_ = _138_;
-  assign _141_ = _046_;
-  assign _143_ = _039_;
-  assign _147_ = _041_;
-  assign _151_ = uart_valid;
-  assign _153_ = _042_;
-  assign _029_ = _152_;
-  assign _155_ = symbols_valid;
-  assign _160_ = _041_;
-  assign _164_ = uart_valid;
-  assign _166_ = _042_;
-  assign _027_ = _165_;
-  assign _168_ = _043_;
-  assign _172_ = _039_;
-  assign _175_ = _041_;
-  assign _179_ = uart_valid;
-  assign _181_ = _042_;
-  assign _028_ = _180_;
-  assign _183_ = _043_;
-  assign _187_ = _041_;
-  assign _191_ = uart_valid;
-  assign _193_ = _042_;
-  assign _011_ = _192_;
+  assign _033_ = _292_;
+  assign _034_ = _297_;
+  assign _035_ = _302_;
+  assign _310_ = uart_valid;
+  assign _312_ = _042_;
+  assign _021_[19:5] = _311_;
+  assign _316_ = uart_valid;
+  assign _318_ = _042_;
+  assign _006_[35:24] = _317_;
+  assign _322_ = uart_valid;
+  assign _324_ = _042_;
+  assign _017_[29:16] = _323_;
+  assign _328_ = uart_valid;
+  assign _330_ = _042_;
+  assign _006_[23:12] = _329_;
+  assign _334_ = uart_valid;
+  assign _336_ = _042_;
+  assign _016_[29:16] = _335_;
+  assign _340_ = uart_valid;
+  assign _342_ = _042_;
+  assign _015_[29:16] = _341_;
+  assign _346_ = uart_valid;
+  assign _348_ = _042_;
+  assign _014_[29:16] = _347_;
+  assign _352_ = uart_valid;
+  assign _354_ = _042_;
+  assign _021_[4:0] = _353_;
+  assign _356_ = _040_;
+  assign _361_ = cordic_strb_o;
+  assign _366_ = _039_;
+  assign _369_ = _041_;
+  assign _373_ = uart_valid;
+  assign _375_ = _042_;
+  assign _031_ = _374_;
+  assign _377_ = _040_;
+  assign _381_ = _045_;
+  assign _384_ = cordic_strb_o;
+  assign _389_ = _039_;
+  assign _032_ = _386_;
+  assign _394_ = _044_;
+  assign _396_ = _043_;
+  assign _399_ = _039_;
+  assign _403_ = ready;
+  assign _048_ = _041_;
+  assign _052_ = uart_valid;
+  assign _054_ = _042_;
+  assign _026_ = _053_;
+  assign _058_ = _041_;
+  assign _061_ = uart_valid;
+  assign _063_ = _042_;
+  assign _019_ = _062_;
+  assign _065_ = cordic_strb_o;
+  assign _071_ = _041_;
+  assign _075_ = uart_valid;
+  assign _077_ = _042_;
+  assign _020_ = _076_;
+  assign _081_ = cordic_strb_o;
+  assign _086_ = _041_;
+  assign _090_ = uart_valid;
+  assign _092_ = _042_;
+  assign _012_ = _091_;
+  assign _096_ = _045_;
+  assign _102_ = _039_;
+  assign _105_ = _041_;
+  assign _109_ = uart_valid;
+  assign _111_ = _042_;
+  assign _009_ = _110_;
+  assign _113_ = _043_;
+  assign _118_ = ready;
+  assign _121_ = _041_;
+  assign _125_ = uart_valid;
+  assign _127_ = _042_;
+  assign _023_ = _126_;
+  assign _129_ = _046_;
+  assign _131_ = _041_;
+  assign _135_ = uart_valid;
+  assign _137_ = _042_;
+  assign _024_ = _136_;
+  assign _139_ = _046_;
+  assign _141_ = _041_;
+  assign _145_ = uart_valid;
+  assign _147_ = _042_;
+  assign _010_ = _146_;
+  assign _149_ = _046_;
+  assign _151_ = _039_;
+  assign _155_ = _041_;
+  assign _159_ = uart_valid;
+  assign _161_ = _042_;
+  assign _029_ = _160_;
+  assign _163_ = symbols_valid;
+  assign _168_ = _041_;
+  assign _172_ = uart_valid;
+  assign _174_ = _042_;
+  assign _027_ = _173_;
+  assign _176_ = _043_;
+  assign _180_ = _039_;
+  assign _183_ = _041_;
+  assign _187_ = uart_valid;
+  assign _189_ = _042_;
+  assign _028_ = _188_;
+  assign _191_ = _043_;
   assign _195_ = _041_;
   assign _199_ = uart_valid;
   assign _201_ = _042_;
-  assign _025_ = _200_;
+  assign _011_ = _200_;
   assign _203_ = _041_;
   assign _207_ = uart_valid;
-  assign _209_ = start_encoding;
-  assign _211_ = _042_;
-  assign _013_ = _210_;
-  assign _213_ = _042_;
-  assign _008_ = _212_;
-  assign _215_ = _042_;
-  assign _007_ = _214_;
-  assign _219_ = uart_valid;
+  assign _209_ = _042_;
+  assign _025_ = _208_;
+  assign _211_ = _041_;
+  assign _215_ = uart_valid;
+  assign _217_ = start_encoding;
+  assign _219_ = _042_;
+  assign _013_ = _218_;
   assign _221_ = _042_;
-  assign _004_ = _220_;
-  assign _225_ = uart_valid;
-  assign _227_ = _042_;
-  assign _003_ = _226_;
-  assign _231_ = uart_valid;
-  assign _233_ = _042_;
-  assign _002_ = _232_;
-  assign _237_ = uart_valid;
-  assign _239_ = _042_;
-  assign _001_ = _238_;
-  assign _243_ = uart_valid;
-  assign _245_ = _042_;
-  assign _016_[15:0] = _244_;
-  assign _249_ = uart_valid;
-  assign _251_ = _042_;
-  assign _015_[15:0] = _250_;
-  assign _255_ = uart_valid;
-  assign _257_ = _042_;
-  assign _014_[15:0] = _256_;
-  assign _259_ = _041_;
+  assign _008_ = _220_;
+  assign _223_ = _042_;
+  assign _007_ = _222_;
+  assign _227_ = uart_valid;
+  assign _229_ = _042_;
+  assign _004_ = _228_;
+  assign _233_ = uart_valid;
+  assign _235_ = _042_;
+  assign _003_ = _234_;
+  assign _239_ = uart_valid;
+  assign _241_ = _042_;
+  assign _002_ = _240_;
+  assign _245_ = uart_valid;
+  assign _247_ = _042_;
+  assign _001_ = _246_;
+  assign _251_ = uart_valid;
+  assign _253_ = _042_;
+  assign _016_[15:0] = _252_;
+  assign _257_ = uart_valid;
+  assign _259_ = _042_;
+  assign _015_[15:0] = _258_;
   assign _263_ = uart_valid;
   assign _265_ = _042_;
-  assign _030_ = _264_;
-  assign _269_ = uart_valid;
-  assign _271_ = _042_;
-  assign _022_ = _270_;
-  assign _275_ = uart_valid;
-  assign _277_ = _042_;
-  assign _006_[11:0] = _276_;
-  assign _281_ = uart_valid;
-  assign _283_ = _042_;
-  assign _017_[15:0] = _282_;
-  assign OSR_PARAM = _289_;
-  assign OSR = _284_;
-  assign f_c = _294_;
+  assign _014_[15:0] = _264_;
+  assign _267_ = _041_;
+  assign _271_ = uart_valid;
+  assign _273_ = _042_;
+  assign _030_ = _272_;
+  assign _277_ = uart_valid;
+  assign _279_ = _042_;
+  assign _022_ = _278_;
+  assign _283_ = uart_valid;
+  assign _285_ = _042_;
+  assign _006_[11:0] = _284_;
+  assign _289_ = uart_valid;
+  assign _291_ = _042_;
+  assign _017_[15:0] = _290_;
+  assign OSR_PARAM = _297_;
+  assign OSR = _292_;
+  assign f_c = _302_;
   assign _039_ = start_transmission;
 endmodule
 
