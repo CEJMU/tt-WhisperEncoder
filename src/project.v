@@ -20,7 +20,7 @@ module tt_um_cejmu_wspr (
 );
 
     assign uio_oe = 8'd255;
-    assign uio_out[7:1] = 7'b0000000;
+    assign uio_out[7:3] = 5'b00000;
 
     toplevel_uart toplevel (
         .clk(clk),
@@ -36,7 +36,8 @@ module tt_um_cejmu_wspr (
         .lo_i(uo_out[5]),
         .lo_q(uo_out[6]),
         .lo_ix(uo_out[7]),
-        .lo_qx(uio_out[0])
+        .lo_qx(uio_out[0]),
+        .current(uio_out[2:1])
     );
 
 endmodule  // tt_um_factory_test

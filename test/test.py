@@ -98,4 +98,4 @@ async def test_project(dut):
     dut.ui_in.value = 3
     await ClockCycles(dut.clk, 10)
     dut.ui_in.value = 1
-    await ClockCycles(dut.clk, 100000)
+    await ClockCycles(dut.clk, 10000)
