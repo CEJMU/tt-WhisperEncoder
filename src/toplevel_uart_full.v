@@ -3605,7 +3605,7 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   assign _319_ = _320_ ? (* src = "src/toplevel_uart.sv:312.31-312.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c3[29:16];
   assign _320_ = addr == (* src = "src/toplevel_uart.sv:312.31-312.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h09;
   assign _321_ = _322_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _319_ : f_c3[29:16];
-  assign _323_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _321_ : 14'h2180;
+  assign _323_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _321_ : 14'h0180;
   assign _325_ = _326_ ? (* src = "src/toplevel_uart.sv:319.43-319.43|src/toplevel_uart.sv:269.7-329.14" *) data[15:4] : callsign[23:12];
   assign _326_ = addr == (* src = "src/toplevel_uart.sv:319.43-319.43|src/toplevel_uart.sv:269.7-329.14" *) 8'h0b;
   assign _327_ = _328_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _325_ : callsign[23:12];
@@ -3613,15 +3613,15 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   assign _331_ = _332_ ? (* src = "src/toplevel_uart.sv:307.31-307.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c2[29:16];
   assign _332_ = addr == (* src = "src/toplevel_uart.sv:307.31-307.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h07;
   assign _333_ = _334_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _331_ : f_c2[29:16];
-  assign _335_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _333_ : 14'h2180;
+  assign _335_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _333_ : 14'h0180;
   assign _337_ = _338_ ? (* src = "src/toplevel_uart.sv:302.31-302.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c1[29:16];
   assign _338_ = addr == (* src = "src/toplevel_uart.sv:302.31-302.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h05;
   assign _339_ = _340_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _337_ : f_c1[29:16];
-  assign _341_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _339_ : 14'h2180;
+  assign _341_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _339_ : 14'h0180;
   assign _343_ = _344_ ? (* src = "src/toplevel_uart.sv:297.31-297.31|src/toplevel_uart.sv:269.7-329.14" *) data[13:0] : f_c0[29:16];
   assign _344_ = addr == (* src = "src/toplevel_uart.sv:297.31-297.31|src/toplevel_uart.sv:269.7-329.14" *) 8'h03;
   assign _345_ = _346_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _343_ : f_c0[29:16];
-  assign _347_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _345_ : 14'h2180;
+  assign _347_ = reset ? (* src = "src/toplevel_uart.sv:336.9-336.19|src/toplevel_uart.sv:336.5-366.8" *) _345_ : 14'h0180;
   assign _349_ = _350_ ? (* src = "src/toplevel_uart.sv:324.41-324.41|src/toplevel_uart.sv:269.7-329.14" *) data[15:11] : locator[4:0];
   assign _350_ = addr == (* src = "src/toplevel_uart.sv:324.41-324.41|src/toplevel_uart.sv:269.7-329.14" *) 8'h0e;
   assign _351_ = _352_ ? (* src = "src/toplevel_uart.sv:268.9-268.19|src/toplevel_uart.sv:268.5-330.8" *) _349_ : locator[4:0];
