@@ -329,7 +329,7 @@ module \$paramod\multiplier\WIDTH=s32'00000000000000000000000000011100 (clk, res
   wire [55:0] _00_;
   (* src = "src/multiplier.sv:15.3-25.6" *)
   wire [27:0] _01_;
-  (* src = "src/multiplier.sv:17.22-17.37" *)
+  (* src = "src/multiplier.sv:17.22-17.46" *)
   wire [55:0] _02_;
   (* src = "src/multiplier.sv:18.18-18.29" *)
   wire [31:0] _03_;
@@ -357,7 +357,7 @@ module \$paramod\multiplier\WIDTH=s32'00000000000000000000000000011100 (clk, res
   reg [55:0] accumulator;
   (* src = "src/multiplier.sv:12.23-12.30" *)
   reg [27:0] counter;
-  assign _02_ = accumulator + (* src = "src/multiplier.sv:17.22-17.37" *) a;
+  assign _02_ = accumulator + (* src = "src/multiplier.sv:17.22-17.46" *) { 28'h0000000, a };
   assign _03_ = counter + (* src = "src/multiplier.sv:18.18-18.29" *) 32'd1;
   assign _04_ = ~ (* src = "src/multiplier.sv:21.9-21.21" *) reset_n;
   assign _06_ = counter >= (* src = "src/multiplier.sv:28.36-28.48" *) b;
@@ -440,12 +440,12 @@ module callsign(clk, reset_n, callsign_in, callsign_out, valid, a_mul, b_mul, mu
   wire [3:0] _008_;
   (* src = "src/callsign.sv:125.29-125.45" *)
   wire [31:0] _009_;
-  (* src = "src/callsign.sv:47.26-47.44" *)
+  (* src = "src/callsign.sv:47.26-47.53" *)
   wire [27:0] _010_;
-  (* src = "src/callsign.sv:61.26-61.44" *)
+  (* src = "src/callsign.sv:61.26-61.53" *)
   wire [27:0] _011_;
-  (* src = "src/callsign.sv:75.26-75.44" *)
-  wire [31:0] _012_;
+  (* src = "src/callsign.sv:75.26-75.53" *)
+  wire [27:0] _012_;
   (* src = "src/callsign.sv:107.9-107.21" *)
   wire _013_;
   (* src = "src/callsign.sv:126.19-126.29" *)
@@ -535,8 +535,8 @@ module callsign(clk, reset_n, callsign_in, callsign_out, valid, a_mul, b_mul, mu
   wire [31:0] _092_;
   (* src = "src/callsign.sv:64.26-64.41" *)
   wire [31:0] _093_;
-  (* src = "src/callsign.sv:75.26-75.49" *)
-  wire [31:0] _094_;
+  (* src = "src/callsign.sv:75.26-75.62" *)
+  wire [27:0] _094_;
   (* src = "src/callsign.sv:76.26-76.41" *)
   wire [31:0] _095_;
   (* src = "src/callsign.sv:126.18-126.38" *)
@@ -550,9 +550,9 @@ module callsign(clk, reset_n, callsign_in, callsign_out, valid, a_mul, b_mul, mu
   (* src = "src/callsign.sv:27.16-27.21" *)
   reg [3:0] state = 4'h0;
   assign _009_ = { 25'h0000000, slice_index } + (* src = "src/callsign.sv:125.29-125.45" *) 32'd1;
-  assign _010_ = mul_result + (* src = "src/callsign.sv:47.26-47.44" *) slice;
-  assign _011_ = mul_result + (* src = "src/callsign.sv:61.26-61.44" *) slice;
-  assign _012_ = mul_result + (* src = "src/callsign.sv:75.26-75.44" *) slice;
+  assign _010_ = mul_result + (* src = "src/callsign.sv:47.26-47.53" *) { 22'h000000, slice };
+  assign _011_ = mul_result + (* src = "src/callsign.sv:61.26-61.53" *) { 22'h000000, slice };
+  assign _012_ = mul_result + (* src = "src/callsign.sv:75.26-75.53" *) { 22'h000000, slice };
   assign _013_ = ~ (* src = "src/callsign.sv:107.9-107.21" *) reset_n;
   assign _014_ = state == (* src = "src/callsign.sv:126.19-126.29" *) 4'h8;
   assign _015_ = slice_index <= (* src = "src/callsign.sv:80.15-80.31" *) 32'd5;
@@ -696,7 +696,7 @@ module callsign(clk, reset_n, callsign_in, callsign_out, valid, a_mul, b_mul, mu
   assign _051_ = _134_(28'h0000000, { 22'h000000, _089_, accumulator, _062_, accumulator, _058_, accumulator, _054_, accumulator, accumulator }, { _066_, _065_, _064_, _061_, _060_, _057_, _056_, _053_, _052_ });
   assign _052_ = state == (* full_case = 32'd1 *) (* src = "src/callsign.sv:91.10-91.10|src/callsign.sv:32.5-105.12" *) 4'h8;
   assign _053_ = state == (* full_case = 32'd1 *) (* src = "src/callsign.sv:85.10-85.10|src/callsign.sv:32.5-105.12" *) 4'h7;
-  assign _054_ = _055_ ? (* src = "src/callsign.sv:74.13-74.22|src/callsign.sv:74.9-84.12" *) _094_[27:0] : accumulator;
+  assign _054_ = _055_ ? (* src = "src/callsign.sv:74.13-74.22|src/callsign.sv:74.9-84.12" *) _094_ : accumulator;
   assign _056_ = state == (* full_case = 32'd1 *) (* src = "src/callsign.sv:71.10-71.10|src/callsign.sv:32.5-105.12" *) 4'h6;
   assign _057_ = state == (* full_case = 32'd1 *) (* src = "src/callsign.sv:66.10-66.10|src/callsign.sv:32.5-105.12" *) 4'h5;
   assign _058_ = _059_ ? (* src = "src/callsign.sv:60.13-60.22|src/callsign.sv:60.9-65.12" *) _011_ : accumulator;
@@ -758,7 +758,7 @@ module callsign(clk, reset_n, callsign_in, callsign_out, valid, a_mul, b_mul, mu
   assign _091_ = slice_index - (* src = "src/callsign.sv:37.24-37.39" *) 32'd6;
   assign _092_ = slice_index - (* src = "src/callsign.sv:50.26-50.41" *) 32'd6;
   assign _093_ = slice_index - (* src = "src/callsign.sv:64.26-64.41" *) 32'd6;
-  assign _094_ = _012_ - (* src = "src/callsign.sv:75.26-75.49" *) 32'd10;
+  assign _094_ = _012_ - (* src = "src/callsign.sv:75.26-75.62" *) 28'h000000a;
   assign _095_ = slice_index - (* src = "src/callsign.sv:76.26-76.41" *) 32'd6;
   assign _096_ = _014_ ? (* src = "src/callsign.sv:126.18-126.38" *) 32'd1 : 32'd0;
   assign a_mul = accumulator;
@@ -2051,14 +2051,14 @@ module loc_pwr(clk, reset_n, locator, power, M, valid, a_mul, b_mul, mul_reset_n
   wire [27:0] _006_;
   (* src = "src/loc_pwr.sv:105.14-105.14" *)
   wire [27:0] _007_;
-  (* src = "src/loc_pwr.sv:76.18-76.34" *)
-  wire [55:0] _008_;
-  (* src = "src/loc_pwr.sv:84.18-84.28" *)
+  (* src = "src/loc_pwr.sv:76.18-76.40" *)
+  wire [21:0] _008_;
+  (* src = "src/loc_pwr.sv:84.18-84.37" *)
   wire [21:0] _009_;
-  (* src = "src/loc_pwr.sv:89.18-89.36" *)
-  wire [31:0] _010_;
-  (* src = "src/loc_pwr.sv:89.18-89.41" *)
-  wire [31:0] _011_;
+  (* src = "src/loc_pwr.sv:89.18-89.45" *)
+  wire [21:0] _010_;
+  (* src = "src/loc_pwr.sv:89.18-89.54" *)
+  wire [21:0] _011_;
   (* src = "src/loc_pwr.sv:129.19-129.29" *)
   wire _012_;
   (* src = "src/loc_pwr.sv:98.9-98.21" *)
@@ -2141,10 +2141,10 @@ module loc_pwr(clk, reset_n, locator, power, M, valid, a_mul, b_mul, mul_reset_n
   wire [3:0] _083_;
   wire _084_;
   (* src = "src/loc_pwr.sv:89.19-89.27" *)
-  wire [31:0] _085_;
+  wire [21:0] _085_;
   (* src = "src/loc_pwr.sv:54.18-54.27" *)
   wire [31:0] _086_;
-  (* src = "src/loc_pwr.sv:59.16-59.26" *)
+  (* src = "src/loc_pwr.sv:59.16-59.35" *)
   wire [21:0] _087_;
   (* src = "src/loc_pwr.sv:129.18-129.38" *)
   wire [31:0] _088_;
@@ -2162,10 +2162,10 @@ module loc_pwr(clk, reset_n, locator, power, M, valid, a_mul, b_mul, mul_reset_n
   reg pause;
   (* src = "src/loc_pwr.sv:36.15-36.20" *)
   reg [3:0] state;
-  assign _008_ = acc + (* src = "src/loc_pwr.sv:76.18-76.34" *) mul_result;
-  assign _009_ = acc + (* src = "src/loc_pwr.sv:84.18-84.28" *) loc4;
-  assign _010_ = _085_ + (* src = "src/loc_pwr.sv:89.18-89.36" *) power;
-  assign _011_ = _010_ + (* src = "src/loc_pwr.sv:89.18-89.41" *) 32'd64;
+  assign _008_ = acc + (* src = "src/loc_pwr.sv:76.18-76.40" *) mul_result[21:0];
+  assign _009_ = acc + (* src = "src/loc_pwr.sv:84.18-84.37" *) { 17'h00000, loc4 };
+  assign _010_ = _085_ + (* src = "src/loc_pwr.sv:89.18-89.45" *) { 16'h0000, power };
+  assign _011_ = _010_ + (* src = "src/loc_pwr.sv:89.18-89.54" *) 22'h000040;
   assign _012_ = state == (* src = "src/loc_pwr.sv:129.19-129.29" *) 4'h7;
   assign _013_ = ~ (* src = "src/loc_pwr.sv:98.9-98.21" *) reset_n;
   assign _014_ = mul_valid && (* src = "src/loc_pwr.sv:45.13-45.32" *) _017_;
@@ -2322,10 +2322,10 @@ module loc_pwr(clk, reset_n, locator, power, M, valid, a_mul, b_mul, mul_reset_n
         _130_ = a;
     endcase
   endfunction
-  assign _052_ = _130_(acc, { _063_, _086_[21:0], _087_, _058_, _055_, _009_, _011_[21:0] }, { _065_, _062_, _061_, _060_, _057_, _054_, _053_ });
+  assign _052_ = _130_(acc, { _063_, _086_[21:0], _087_, _058_, _055_, _009_, _011_ }, { _065_, _062_, _061_, _060_, _057_, _054_, _053_ });
   assign _053_ = state == (* full_case = 32'd1 *) (* parallel_case = 32'd1 *) (* src = "src/loc_pwr.sv:86.10-86.10|src/loc_pwr.sv:43.12-96.12" *) 4'h6;
   assign _054_ = state == (* full_case = 32'd1 *) (* parallel_case = 32'd1 *) (* src = "src/loc_pwr.sv:81.10-81.10|src/loc_pwr.sv:43.12-96.12" *) 4'h5;
-  assign _055_ = _056_ ? (* src = "src/loc_pwr.sv:75.13-75.32|src/loc_pwr.sv:75.9-80.12" *) _008_[21:0] : acc;
+  assign _055_ = _056_ ? (* src = "src/loc_pwr.sv:75.13-75.32|src/loc_pwr.sv:75.9-80.12" *) _008_ : acc;
   assign _057_ = state == (* full_case = 32'd1 *) (* parallel_case = 32'd1 *) (* src = "src/loc_pwr.sv:72.10-72.10|src/loc_pwr.sv:43.12-96.12" *) 4'h4;
   assign _058_ = _059_ ? (* src = "src/loc_pwr.sv:66.13-66.32|src/loc_pwr.sv:66.9-71.12" *) mul_result[21:0] : acc;
   assign _060_ = state == (* full_case = 32'd1 *) (* parallel_case = 32'd1 *) (* src = "src/loc_pwr.sv:63.10-63.10|src/loc_pwr.sv:43.12-96.12" *) 4'h3;
@@ -2377,7 +2377,7 @@ module loc_pwr(clk, reset_n, locator, power, M, valid, a_mul, b_mul, mul_reset_n
   assign _082_ = ! (* full_case = 32'd1 *) (* parallel_case = 32'd1 *) (* src = "src/loc_pwr.sv:43.24-43.24|src/loc_pwr.sv:43.12-96.12" *) state;
   assign _083_ = reset_n ? (* src = "src/loc_pwr.sv:98.9-98.21|src/loc_pwr.sv:98.5-102.8" *) _068_ : 4'h0;
   assign _086_ = 32'd179 - (* src = "src/loc_pwr.sv:54.18-54.27" *) acc;
-  assign _087_ = acc - (* src = "src/loc_pwr.sv:59.16-59.26" *) loc3;
+  assign _087_ = acc - (* src = "src/loc_pwr.sv:59.16-59.35" *) { 17'h00000, loc3 };
   assign _088_ = _012_ ? (* src = "src/loc_pwr.sv:129.18-129.38" *) 32'd1 : 32'd0;
   assign loc1 = locator[19:15];
   assign loc2 = locator[14:10];
@@ -2410,7 +2410,7 @@ module loc_pwr(clk, reset_n, locator, power, M, valid, a_mul, b_mul, mul_reset_n
   assign _005_ = _083_;
   assign a_mul = _024_;
   assign b_mul = _020_;
-  assign _085_ = { 3'h0, acc, 7'h00 };
+  assign _085_ = { acc[14:0], 7'h00 };
 endmodule
 
 (* hdlname = "sync" *)
@@ -2435,7 +2435,7 @@ module sync(clk, reset_n, data, req_next_symbol, symbol_out, symbol_valid);
   output symbol_valid;
   reg symbol_valid;
   (* src = "src/sync.sv:15.3-29.6" *)
-  wire [9:0] _00_;
+  wire [7:0] _00_;
   (* src = "src/sync.sv:15.3-29.6" *)
   wire [1:0] _01_;
   (* src = "src/sync.sv:15.3-29.6" *)
@@ -2450,11 +2450,11 @@ module sync(clk, reset_n, data, req_next_symbol, symbol_out, symbol_valid);
   wire _07_;
   wire _08_;
   wire _09_;
-  wire [9:0] _10_;
+  wire [7:0] _10_;
   wire _11_;
-  wire [9:0] _12_;
+  wire [7:0] _12_;
   wire _13_;
-  wire [9:0] _14_;
+  wire [7:0] _14_;
   wire _15_;
   wire [1:0] _16_;
   wire _17_;
@@ -2467,7 +2467,7 @@ module sync(clk, reset_n, data, req_next_symbol, symbol_out, symbol_valid);
   (* src = "src/sync.sv:22.23-22.28" *)
   wire [31:0] _21_;
   (* src = "src/sync.sv:13.15-13.16" *)
-  reg [9:0] n;
+  reg [7:0] n;
   assign _03_ = _18_ + (* src = "src/sync.sv:19.21-19.52" *) _20_;
   assign _04_ = ~ (* src = "src/sync.sv:25.9-25.21" *) reset_n;
   assign _05_ = n > (* src = "src/sync.sv:22.11-22.16" *) 32'd0;
@@ -2485,9 +2485,9 @@ module sync(clk, reset_n, data, req_next_symbol, symbol_out, symbol_valid);
     n <= _14_;
   assign _06_ = _07_ ? (* src = "src/sync.sv:18.10-18.25|src/sync.sv:18.6-23.8" *) 1'h1 : 1'h0;
   assign _08_ = reset_n ? (* src = "src/sync.sv:25.9-25.21|src/sync.sv:25.5-28.8" *) _06_ : 1'h0;
-  assign _10_ = _11_ ? (* src = "src/sync.sv:22.11-22.16|src/sync.sv:22.7-22.29" *) _21_[9:0] : n;
+  assign _10_ = _11_ ? (* src = "src/sync.sv:22.11-22.16|src/sync.sv:22.7-22.29" *) _21_[7:0] : n;
   assign _12_ = _13_ ? (* src = "src/sync.sv:18.10-18.25|src/sync.sv:18.6-23.8" *) _10_ : n;
-  assign _14_ = reset_n ? (* src = "src/sync.sv:25.9-25.21|src/sync.sv:25.5-28.8" *) _12_ : 10'h0a1;
+  assign _14_ = reset_n ? (* src = "src/sync.sv:25.9-25.21|src/sync.sv:25.5-28.8" *) _12_ : 8'ha1;
   assign _16_ = _17_ ? (* src = "src/sync.sv:18.10-18.25|src/sync.sv:18.6-23.8" *) _03_ : symbol_out;
   wire [161:0] _37_ = 162'h302389780940b34686aa4b1a8824ecd1c14c06b18;
   assign _18_ = _37_[n +: 1];
@@ -3030,16 +3030,12 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   reg [25:0] cycle_counter;
   (* src = "src/toplevel_uart.sv:21.16-21.20" *)
   wire [15:0] data;
-  (* src = "src/toplevel_uart.sv:134.18-134.34" *)
-  wire dmod_cos_data_rd;
-  (* src = "src/toplevel_uart.sv:147.18-147.34" *)
-  wire dmod_sin_data_rd;
-  (* src = "src/toplevel_uart.sv:128.16-128.33" *)
-  wire [29:0] dsmod_cos_data_rd;
+  (* src = "src/toplevel_uart.sv:128.9-128.26" *)
+  wire dsmod_cos_data_rd;
   (* src = "src/toplevel_uart.sv:127.9-127.18" *)
   reg dsmod_ena;
-  (* src = "src/toplevel_uart.sv:141.16-141.33" *)
-  wire [29:0] dsmod_sin_data_rd;
+  (* src = "src/toplevel_uart.sv:141.9-141.26" *)
+  wire dsmod_sin_data_rd;
   (* src = "src/toplevel_uart.sv:43.9-43.22" *)
   reg encoder_reset;
   (* src = "src/toplevel_uart.sv:77.16-77.19" *)
@@ -3105,9 +3101,9 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
   assign _040_ = ! (* src = "src/toplevel_uart.sv:250.17-250.38" *) transmit_counter;
   assign _041_ = ~ (* src = "src/toplevel_uart.sv:268.15-268.30" *) data[0];
   assign _042_ = ~ (* src = "src/toplevel_uart.sv:331.9-331.19" *) reset;
-  assign _043_ = cycle_counter >= (* src = "src/toplevel_uart.sv:220.13-220.47" *) 32'd38248000;
+  assign _043_ = cycle_counter >= (* src = "src/toplevel_uart.sv:220.13-220.47" *) 26'h2479e40;
   assign _044_ = symbol_counter <= (* src = "src/toplevel_uart.sv:225.15-225.34" *) 32'd1;
-  assign _045_ = transmit_counter <= (* src = "src/toplevel_uart.sv:241.17-241.49" *) 32'd21;
+  assign _045_ = transmit_counter <= (* src = "src/toplevel_uart.sv:241.17-241.49" *) 8'h15;
   assign _046_ = _038_ && (* src = "src/toplevel_uart.sv:188.9-188.43" *) cordic_strb_o;
   (* \always_ff  = 32'd1 *)
   (* src = "src/toplevel_uart.sv:185.3-360.6" *)
@@ -3742,7 +3738,7 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     .i_mode(1'h0),
     .i_osr(OSR_PARAM),
     .i_rst_n(transmission_reset_n),
-    .o_data_rd(dmod_cos_data_rd),
+    .o_data_rd(dsmod_cos_data_rd),
     .o_ds(cos_ds),
     .o_ds_n(cos_ds_n)
   );
@@ -3755,7 +3751,7 @@ module toplevel_uart(clk, reset, rx, start_transmission, encoding_valid, cos_ds,
     .i_mode(1'h0),
     .i_osr(OSR_PARAM),
     .i_rst_n(transmission_reset_n),
-    .o_data_rd(dmod_sin_data_rd),
+    .o_data_rd(dsmod_sin_data_rd),
     .o_ds(sin_ds),
     .o_ds_n(sin_ds_n)
   );
